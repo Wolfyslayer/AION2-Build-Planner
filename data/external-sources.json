@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-10-23",
+  "sources": [
+    {
+      "name": "MetaBot",
+      "url": "https://metabot.gg/en/aion-2/skills",
+      "coverage": "Global skill lists and specialization reference",
+      "reportedSkills": 280,
+      "license": "unverified"
+    },
+    {
+      "name": "Aion2Data",
+      "url": "https://aion2data.com/",
+      "coverage": "Global client skills, Daevanion and gear",
+      "reportedSteamBuild": "26077854",
+      "license": "unverified"
+    },
+    {
+      "name": "Aion2.tools",
+      "url": "https://aion2.tools/",
+      "coverage": "Skill builder and Daevanion behavior comparison",
+      "license": "unverified"
+    },
+    {
+      "name": "Aion2.gg",
+      "url": "https://aion2.gg/database",
+      "coverage": "EU client database; different patch snapshot",
+      "reportedGameVersion": "2.0.7.0",
+      "license": "unverified"
+    }
+  ]
+}

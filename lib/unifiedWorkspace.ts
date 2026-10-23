@@ -15,10 +15,9 @@ export function sanitize(input:unknown):WorkspaceBuild{
  const available=skills.filter(s=>s.classId===classId&&s.unlockLevel<=level);
  const ranks:Record<string,number>={};
  if(v.ranks&&typeof v.ranks==="object"&&!Array.isArray(v.ranks))for(const [id,value] of Object.entries(v.ranks)){const skill=available.find(s=>s.id===id);if(skill&&editable(skill)&&Number.isInteger(value)&&value>=1)ranks[id]=Math.min(value,maxRank(skill))}
- const allowed=new Set(available.filter(s=>s.type==="Stigma"&&editable(s)).map(s=>s.id));
- const stigma=Array.isArray(v.stigma)?[...new Set(v.stigma.filter((id):id is string=>typeof id==="string"&&allowed.has(id)))].slice(0,0):[];
+ const stigma:string[]=[];
  const specializations:Record<string,string>={};
- return {schemaVersion:2,name:typeof v.name==="string"?v.name.slice(0,100):fallback.name,classId,level,ranks,stigma,specializations,sourcePatch:typeof v.sourcePatch==="string"?v.sourcePatch:sourcePatch};
+ return {schemaVersion:2,name:typeof v.name==="string"?v.name.slice(0,100):fallback.name,classId,level,ranks,stigma,specializations,sourcePatch};
 }
 export function allocated(_build:WorkspaceBuild){return {skillPoints:0,stigmaShards:0}}
 export function changeRank(build:WorkspaceBuild,id:string,delta:number):WorkspaceBuild{const skill=skillFor(id);if(!skill||skill.classId!==build.classId||!editable(skill)||build.level<skill.unlockLevel)return build;const old=build.ranks[id]??1;const next=Math.min(maxRank(skill),Math.max(1,old+delta));return sanitize({...build,ranks:{...build.ranks,[id]:next}})}

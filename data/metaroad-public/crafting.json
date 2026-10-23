@@ -1,0 +1,9 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "verifiedAgainstGame": false,
+  "recipes": [],
+  "status": "recipe records pending"
+}

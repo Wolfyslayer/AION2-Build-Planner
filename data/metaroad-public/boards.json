@@ -1,0 +1,38 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "verifiedAgainstGame": false,
+  "boards": [
+    {
+      "id": "nezekan",
+      "unlockLevel": 12,
+      "currency": "Daevanion Crystal"
+    },
+    {
+      "id": "zikel",
+      "unlockLevel": 20,
+      "currency": "Daevanion Crystal"
+    },
+    {
+      "id": "vaizel",
+      "unlockLevel": 30,
+      "currency": "Daevanion Crystal"
+    },
+    {
+      "id": "triniel",
+      "unlockLevel": 40,
+      "currency": "Daevanion Crystal"
+    },
+    {
+      "id": "azphel",
+      "unlockLevel": 45,
+      "currency": "Azphel-specific crystal"
+    }
+  ],
+  "reportedBoardsPerClass": 5,
+  "reportedRegularCrystalBudget": 840,
+  "nodes": [],
+  "status": "node positions and edges pending"
+}

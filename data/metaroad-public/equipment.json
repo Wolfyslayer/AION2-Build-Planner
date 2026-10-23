@@ -1,0 +1,11 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "verifiedAgainstGame": false,
+  "reportedEquippableItems": 3555,
+  "reportedItemSlots": 29,
+  "items": [],
+  "status": "item records pending"
+}

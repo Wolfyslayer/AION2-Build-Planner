@@ -1,0 +1,19 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "verifiedAgainstGame": false,
+  "skills": [],
+  "expectedPublicClassSkillCounts": {
+    "templar": 47,
+    "gladiator": 58,
+    "assassin": 50,
+    "ranger": 55,
+    "sorcerer": 55,
+    "spiritmaster": 125,
+    "cleric": 44,
+    "chanter": 47
+  },
+  "status": "individual skill records not yet extracted or verified"
+}

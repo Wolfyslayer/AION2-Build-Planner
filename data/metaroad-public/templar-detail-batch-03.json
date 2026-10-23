@@ -1,0 +1,99 @@
+{
+  "classId": "templar",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "status": "staging-not-runtime",
+  "completeness": "partial",
+  "notes": "10 MetaRoad passive base descriptions. Each displays one variant, but variant-level source verification and overall class completeness are not claimed.",
+  "skills": [
+    {
+      "name": "Enhance Health",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases HP by 250, Max HP by 7.5%, and Incoming Heal by 6%.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Warding Shield",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Block by 200; restores 53–64 HP on Block. Internal cooldown 3s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Punishing Benediction",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Critical Hit by 100; attacks grant a 10s buff with 50% chance of 38% ATK + 69 bonus damage on hit. Internal cooldown 1s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Ironclad Defense",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Defense by 7% and Endurance by 1%.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Guarding Seal",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "At 50% HP or lower grants a shield worth 21% Max HP for 30s. Cooldown 60s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Impact Hit",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Impact-type Chance by 11.2% and Double Chance by 0.3%.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Insulting Roar",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Enmity Boost by 100%; Front Attack grants 5.5% Attack for 5s. Cooldown 5s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Fury",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Front Attack Damage Boost by 0.3%; on Block grants party 5.5% PvE and 2.75% PvP Damage Boost for 20s. Cooldown 1s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Survival Willpower",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "Increases Status Effect Resist by 17%; crowd-control triggers 12% PvE and 6% PvP Damage Tolerance for 5s; repeated hits while controlled grant stacking Status Effect Resist.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Block Pain",
+      "type": "Passive",
+      "variantCount": 1,
+      "summary": "On being hit grants 11% PvE and 5.5% PvP Damage Tolerance for 10s. Cooldown 20s.",
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    }
+  ]
+}

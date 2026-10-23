@@ -1,0 +1,57 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "verifiedAgainstGame": false,
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "note": "Publicly reported facts, not an exhaustive extraction; independently verify against current game patch.",
+  "classes": [
+    {
+      "id": "templar",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/templar",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/templar"
+    },
+    {
+      "id": "gladiator",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/gladiator",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/gladiator",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/gladiator"
+    },
+    {
+      "id": "assassin",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/assassin",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/assassin",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/assassin"
+    },
+    {
+      "id": "ranger",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/ranger",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/ranger",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/ranger"
+    },
+    {
+      "id": "sorcerer",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/sorcerer",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/sorcerer",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/sorcerer"
+    },
+    {
+      "id": "spiritmaster",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/spiritmaster",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/spiritmaster",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/spiritmaster"
+    },
+    {
+      "id": "cleric",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/cleric",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/cleric",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/cleric"
+    },
+    {
+      "id": "chanter",
+      "overviewUrl": "https://metaroad.gg/aion2/database/classes/chanter",
+      "skillsUrl": "https://metaroad.gg/aion2/database/skills/chanter",
+      "boardsUrl": "https://metaroad.gg/aion2/database/daevanion/chanter"
+    }
+  ]
+}

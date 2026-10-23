@@ -1,0 +1,134 @@
+{
+  "classId": "templar",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "completeness": "partial",
+  "status": "staging-not-runtime",
+  "notes": "Four additional database skill summaries; variant internals unverified. Null rank means not displayed for these linked-chain entries. Do not publish as complete.",
+  "skills": [
+    {
+      "name": "Decisive Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "attackCoefficientPercent": 111.6,
+      "flatDamage": 88,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "mpRestored": 100,
+      "specializations": [
+        {
+          "requiredSkillRank": null,
+          "effect": "+20% MP restored"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Absorbs unknown % HP"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "-2s Warding Strike cooldown on hit"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Adds Threatening Blow chain skill"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Desperate Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "attackCoefficientPercent": 133.2,
+      "flatDamage": 100,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "mpRestored": 120,
+      "specializations": [
+        {
+          "requiredSkillRank": null,
+          "effect": "+20% MP restored"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Absorbs unknown % HP"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "-2s Warding Strike cooldown on hit"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Adds Threatening Blow chain skill"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishing Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "attackCoefficientPercent": 138.5,
+      "flatDamage": 103,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "mpCost": 120,
+      "specializations": [
+        {
+          "requiredSkillRank": null,
+          "effect": "-20% MP consumed"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Punishing Strike absorbs unknown % HP"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Up to 12% more damage against fewer targets"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "-1s Punishment cooldown on hit"
+        },
+        {
+          "requiredSkillRank": null,
+          "effect": "Extra damage on hit"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Second Skin",
+      "type": "Active",
+      "variantCount": 6,
+      "cooldownSeconds": 90,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "+10% all Element Tolerance for duration"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+20% Block for duration"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "1.5x Ironclad Defense effect for duration"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+20% PvE Damage Tolerance and +10% PvP Damage Tolerance"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    }
+  ]
+}

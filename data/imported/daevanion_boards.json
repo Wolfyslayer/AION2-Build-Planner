@@ -1,0 +1,71 @@
+{
+  "boards": [
+    {
+      "id": "nezekan",
+      "name": "Nezekan Board",
+      "points_pool": "Daevanion Crystals",
+      "nodes": [
+        {
+          "id": "nz_0_0",
+          "x": 0,
+          "y": 0,
+          "type": "Start",
+          "cost": 0,
+          "connects_to": [
+            "nz_0_1",
+            "nz_1_0"
+          ]
+        },
+        {
+          "id": "nz_0_1",
+          "x": 0,
+          "y": 1,
+          "type": "Stat",
+          "cost": 1,
+          "bonus": {
+            "attack": 15
+          },
+          "connects_to": [
+            "nz_0_2"
+          ]
+        },
+        {
+          "id": "nz_0_2",
+          "x": 0,
+          "y": 2,
+          "type": "Skill_Cap_Increase",
+          "cost": 3,
+          "bonus": {
+            "target_skill": "glad_overhead_slam",
+            "level_cap_add": 1
+          },
+          "connects_to": []
+        }
+      ]
+    },
+    {
+      "id": "zikel",
+      "name": "Zikel Board",
+      "points_pool": "Daevanion Crystals",
+      "nodes": []
+    },
+    {
+      "id": "vaizel",
+      "name": "Vaizel Board",
+      "points_pool": "Daevanion Crystals",
+      "nodes": []
+    },
+    {
+      "id": "triniel",
+      "name": "Triniel Board",
+      "points_pool": "Daevanion Crystals",
+      "nodes": []
+    },
+    {
+      "id": "ariel_azphel",
+      "name": "Ariel / Azphel Board",
+      "points_pool": "Faction Crystals",
+      "nodes": []
+    }
+  ]
+}

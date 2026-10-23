@@ -1,0 +1,66 @@
+{
+  "region": "Global",
+  "sourceUrl": "https://metaroad.gg/aion2/news/aion-2-global-client-datamine-what-the-launch-build-contains",
+  "status": "reference-not-independently-verified",
+  "skill": {
+    "nativeMaxLevel": 14,
+    "specializationSlotUnlockLevels": [
+      8,
+      12,
+      20
+    ],
+    "specializationSlots": 3,
+    "bonusLevelsNeededForThirdSlot": 6
+  },
+  "stigma": {
+    "equippedSlots": 4,
+    "quickSlots": 8
+  },
+  "character": {
+    "clientContentUpToLevel": 50,
+    "dayOneServerCapUnknown": true
+  },
+  "boards": {
+    "unlocks": [
+      {
+        "id": "nezekan",
+        "level": 12
+      },
+      {
+        "id": "zikel",
+        "level": 20
+      },
+      {
+        "id": "vaizel",
+        "level": 30
+      },
+      {
+        "id": "triniel",
+        "level": 40
+      },
+      {
+        "id": "azphel",
+        "level": 45
+      }
+    ]
+  },
+  "patchNotes": [
+    {
+      "classId": "templar",
+      "skill": "Noble Armor",
+      "cooldownSeconds": 120
+    },
+    {
+      "classId": "chanter",
+      "skill": "Guardian Blessing",
+      "cooldownSeconds": 120
+    },
+    {
+      "classId": "assassin",
+      "skill": "Smoke Bomb",
+      "cooldownSeconds": 60,
+      "cooldownReductionSecondsPerSkillLevel": 1
+    }
+  ],
+  "notes": "Source explicitly distinguishes client content from live server cap. Values are factual references, not independent client verification."
+}

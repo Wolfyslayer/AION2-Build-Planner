@@ -1,13 +1,13 @@
 import {preferredSkillView,type CatalogSkill} from "../data/versionedSkillCatalog";
 import {suppliedGame,skillCost,stigmaShardCost,unlockedStigmaSlots} from "../data/suppliedGame";
 export type WorkspaceBuild={schemaVersion:2;name:string;classId:string;level:number;ranks:Record<string,number>;stigma:string[];specializations:Record<string,string>;sourcePatch:string};
-export const sourcePatch="Global 2026-10-20";
+export const sourcePatch="MetaRoad database · incomplete";
 export const classIds=suppliedGame.classes.map(c=>c.id);
 export const skills=preferredSkillView();
 export function initialBuild():WorkspaceBuild{return {schemaVersion:2,name:"My AION 2 build",classId:"chanter",level:35,ranks:{},stigma:[],specializations:{},sourcePatch}}
 export function skillFor(id:string){return skills.find(s=>s.id===id)}
-export function editable(skill:CatalogSkill){return skill.status==="legacy-unverified"&&suppliedGame.skills.some(s=>s.skill_id===skill.id)}
-export function maxRank(skill:CatalogSkill){const original=suppliedGame.skills.find(s=>s.skill_id===skill.id);return original?(skill.type==="Stigma"?20:10):1}
+export function editable(_skill:CatalogSkill){return false}
+export function maxRank(_skill:CatalogSkill){return 1}
 export function sanitize(input:unknown):WorkspaceBuild{
  const fallback=initialBuild();if(!input||typeof input!=="object")return fallback;
  const v=input as Partial<WorkspaceBuild>;const classId=classIds.includes(v.classId??"")?v.classId!:fallback.classId;

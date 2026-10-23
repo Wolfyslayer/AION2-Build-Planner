@@ -1,3 +1,7 @@
 import {describe,it,expect} from "vitest";
 import {findPreferredSkill,preferredSkillView,catalogSkills} from "../data/versionedSkillCatalog";
-describe("versioned skill catalog",()=>{it("prefers Aion2Builds for documented conflicts",()=>{expect(findPreferredSkill("gladiator","Rage Burst")).toMatchObject({type:"Stigma",unlockLevel:22,source:"aion2builds"});expect(findPreferredSkill("sorcerer","Hellfire")).toMatchObject({unlockLevel:14,source:"aion2builds"})});it("keeps original source data immutable",()=>{expect(catalogSkills.find(s=>s.name==="Rage Burst")).toMatchObject({type:"Active",unlockLevel:3});expect(preferredSkillView().length).toBe(catalogSkills.length)});it("does not claim missing values are verified",()=>{expect(findPreferredSkill("ranger","Deadshot")?.status).toBe("legacy-unverified")})});
+describe("MetaRoad-only skill catalog",()=>{
+ it("contains imported database skills",()=>{expect(findPreferredSkill("chanter","Onslaught")).toMatchObject({source:"metaroad-database",status:"preferred-reference"});expect(findPreferredSkill("gladiator","Overhead Slam")).toBeDefined()});
+ it("keeps imported catalog stable",()=>{expect(preferredSkillView()).toEqual(catalogSkills);expect(catalogSkills.every(s=>s.source==="metaroad-database")).toBe(true)});
+ it("does not retain previous source-only skills",()=>{expect(findPreferredSkill("sorcerer","Hellfire")).toBeUndefined();expect(findPreferredSkill("ranger","Deadshot")).toBeUndefined()});
+});

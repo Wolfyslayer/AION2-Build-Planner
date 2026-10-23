@@ -1,0 +1,80 @@
+{
+  "region": "Global",
+  "classId": "sorcerer",
+  "sourceUrl": "https://metaroad.gg/aion2/build-guides/sorcerer-pve-dps-build",
+  "guidePublished": "2026-10-04",
+  "guideUpdated": "2026-10-10",
+  "status": "guide-reference-not-authoritative-skill-catalog",
+  "level": 45,
+  "buildExamples": [
+    {
+      "skill": "Hellfire",
+      "rank": 20,
+      "specializationChoices": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "skill": "Wish of Concentration",
+      "rank": 16,
+      "specializationChoices": [
+        4,
+        5
+      ]
+    },
+    {
+      "skill": "Blaze",
+      "rank": 16,
+      "specializationChoices": [
+        3,
+        5
+      ]
+    },
+    {
+      "skill": "Firestorm",
+      "rank": 16,
+      "specializationChoices": [
+        4,
+        5
+      ]
+    },
+    {
+      "skill": "Bittercold Wind",
+      "rank": 18,
+      "specializationChoices": [
+        1,
+        4
+      ]
+    },
+    {
+      "skill": "Flame Arrow",
+      "rank": 14,
+      "specializationChoices": [
+        2,
+        4
+      ]
+    },
+    {
+      "skill": "Winter's Shackles",
+      "rank": 14,
+      "specializationChoices": [
+        1,
+        3
+      ]
+    }
+  ],
+  "recommendedStigmas": [
+    "Element Enhancement",
+    "Fire Wall",
+    "Cold Storm",
+    "Delayed Explosion"
+  ],
+  "daevanion": {
+    "launchPriorityPoints": 277,
+    "fullPvePoints": 471,
+    "activeSkillNodesPerPveBoard": 1
+  },
+  "notes": "Build choices are guide recommendations, not mandatory skill mechanics. Do not overwrite canonical skill IDs or infer icon paths."
+}

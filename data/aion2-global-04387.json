@@ -11,7 +11,13 @@
       "armor": "Plate",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Plate",
+      "main_weapon": "Sword & Shield",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Tank"
     },
     {
       "id": "gladiator",
@@ -21,7 +27,13 @@
       "armor": "Plate",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Plate",
+      "main_weapon": "Greatsword",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "DPS/Off-Tank"
     },
     {
       "id": "assassin",
@@ -31,7 +43,13 @@
       "armor": "Leather",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Leather",
+      "main_weapon": "Dual Daggers",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Melee DPS"
     },
     {
       "id": "ranger",
@@ -41,7 +59,13 @@
       "armor": "Leather",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Leather",
+      "main_weapon": "Longbow",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Ranged DPS"
     },
     {
       "id": "sorcerer",
@@ -51,7 +75,13 @@
       "armor": "Cloth",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Cloth",
+      "main_weapon": "Magicbook",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Magic DPS"
     },
     {
       "id": "spiritmaster",
@@ -61,7 +91,13 @@
       "armor": "Cloth",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Cloth",
+      "main_weapon": "Orb",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Summoner/DPS"
     },
     {
       "id": "cleric",
@@ -71,7 +107,13 @@
       "armor": "Chain",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Chain",
+      "main_weapon": "Mace & Shield",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Healer"
     },
     {
       "id": "chanter",
@@ -81,7 +123,13 @@
       "armor": "Chain",
       "active_skills_count": 12,
       "passive_skills_count": 10,
-      "stigma_skills_count": 13
+      "stigma_skills_count": 13,
+      "archetype": "Chain",
+      "main_weapon": "Staff",
+      "base_active_count": 12,
+      "base_passive_count": 10,
+      "stigma_slots": 4,
+      "role_detail": "Support/Hybrid"
     }
   ],
   "skill_level_costs": [
@@ -240,5 +288,77 @@
       "description": "Deploys a frozen zone that slows down enemy movement and attack speeds.",
       "specialty_slots": null
     }
-  ]
+  ],
+  "max_character_level": 45,
+  "skill_point_progression": {
+    "base_max_level": 10,
+    "absolute_max_level": 40,
+    "total_points_to_max_base": 21,
+    "cost_matrix": [
+      {
+        "level_target": 2,
+        "skill_points_required": 1
+      },
+      {
+        "level_target": 3,
+        "skill_points_required": 1
+      },
+      {
+        "level_target": 4,
+        "skill_points_required": 1
+      },
+      {
+        "level_target": 5,
+        "skill_points_required": 2
+      },
+      {
+        "level_target": 6,
+        "skill_points_required": 2
+      },
+      {
+        "level_target": 7,
+        "skill_points_required": 2
+      },
+      {
+        "level_target": 8,
+        "skill_points_required": 4
+      },
+      {
+        "level_target": 9,
+        "skill_points_required": 4
+      },
+      {
+        "level_target": 10,
+        "skill_points_required": 4
+      }
+    ]
+  },
+  "stigma_progression": {
+    "unlock_levels": [
+      22,
+      27,
+      32,
+      37
+    ],
+    "max_stigma_level": 20,
+    "currency": "Stigma Shards",
+    "tier_costs": [
+      {
+        "levels": "1-5",
+        "shards_per_level": 1
+      },
+      {
+        "levels": "6-10",
+        "shards_per_level": 2
+      },
+      {
+        "levels": "11-15",
+        "shards_per_level": 4
+      },
+      {
+        "levels": "16-20",
+        "shards_per_level": 8
+      }
+    ]
+  }
 }

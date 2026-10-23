@@ -1,0 +1,197 @@
+{
+  "classId": "templar",
+  "status": "staging-not-runtime",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "completeness": "partial",
+  "notes": "Six more MetaRoad base summaries and listed specialization effects; not a per-variant verification.",
+  "skills": [
+    {
+      "name": "Armor of Balance",
+      "variantCount": 6,
+      "cooldownSeconds": 90,
+      "rangeMeters": null,
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "summary": "Increases Impact-type Resist by 50% for 10s.",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "+20% Ailment-type and Mental-type Resist for duration"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+20% Move Speed for duration"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "1.5x Warding Shield effect for duration"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+50% additional Impact-type Resist"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Comrade in Arms",
+      "variantCount": 6,
+      "cooldownSeconds": 120,
+      "rangeMeters": null,
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "summary": "Redirects damage taken by a party member within 40m, splitting damage 50/50 for 6s; increases caster PvE Damage Tolerance by 20% and PvP Damage Tolerance by 10%.",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "Restores 25% Max HP once if hit at 25% HP or less"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "1.5x Guarding Seal Protective Shield effect"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "1.5x Block Pain effect"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "Restores 50% caster Max HP on effect end"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Defiance",
+      "variantCount": 26,
+      "cooldownSeconds": 60,
+      "rangeMeters": null,
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "summary": "Removes listed crowd-control effects and grants Tenacity (status-effect immunity) for 5s.",
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "Adds Capture chain skill"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Restores 1000 Stamina on use"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Restores 20% HP on use"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "+2s Tenacity duration"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "+50% PvE and +25% PvP Damage Tolerance during Tenacity"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Debilitating Smash",
+      "variantCount": 26,
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "attackCoefficientPercent": 184,
+      "flatDamage": 336,
+      "summary": "Deals damage and inflicts Debilitate (25% Defense reduction for 5s) on Block.",
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "30% chance to Stun for 3s"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "+3s Debilitate duration"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "-60% Incoming Heal during Debilitate"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "Ignores Block and Evasion; Multi-Hit"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "25% chance to reset cooldown on Block"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Empyrean Lord's Punishment",
+      "variantCount": 6,
+      "cooldownSeconds": 60,
+      "rangeMeters": 20,
+      "attackCoefficientPercent": 164,
+      "flatDamage": 939,
+      "summary": "Deals damage per hit (3 hits) to up to four enemies; chance to Stun.",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "Up to +20% damage with fewer targets"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+50 Stagger Gauge Damage"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "+10% PvE and +5% PvP Damage Boost for 10s on hit"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+25% Stun Chance"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Nezekan's Shield",
+      "variantCount": 6,
+      "cooldownSeconds": 60,
+      "rangeMeters": null,
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "summary": "Protective Shield for caster and party within 40m, blocking damage equal to 41% Max HP for 3s.",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "+20% all Element Tolerance during shield"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+2s shield duration"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "+20% PvE and +10% PvP Damage Tolerance during shield"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "Restores 20% Max HP when shield removed"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    }
+  ]
+}

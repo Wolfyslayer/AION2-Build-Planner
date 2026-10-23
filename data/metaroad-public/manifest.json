@@ -11,7 +11,7 @@
     "https://metaroad.gg/aion2/news/metaroad-launches-its-aion-2-section-guides-database-and-build-planner"
   ],
   "completeness": "partial",
-  "notes": "Counts are site-reported and not independently checked against game client. Empty arrays are intentionally not represented as complete datasets. This increment adds individually sourced Gladiator skill facts, sample level stats, class deep-links and Global board unlocks. Do not conflate rank-8 alternatives with three fixed colors: game mapping remains unverified. Added 22 partial Chanter factual skill entries with source links; unknown values are null.",
+  "notes": "Counts are site-reported and not independently checked against game client. Empty arrays are intentionally not represented as complete datasets. This increment adds individually sourced Gladiator skill facts, sample level stats, class deep-links and Global board unlocks. Do not conflate rank-8 alternatives with three fixed colors: game mapping remains unverified. Added 22 partial Chanter factual skill entries with source links; unknown values are null. Global client progression and selected Sorcerer/Cleric guide recommendations are recorded as separate sourced factual references; guides are not canonical skill records.",
   "files": [
     "classes.json",
     "skills.json",
@@ -27,6 +27,9 @@
     "class-links.json",
     "gladiator-skill-facts.json",
     "gladiator-class-facts.json",
-    "chanter-skill-facts.json"
+    "chanter-skill-facts.json",
+    "global-progression-facts.json",
+    "sorcerer-guide-facts.json",
+    "cleric-guide-facts.json"
   ]
 }

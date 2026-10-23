@@ -1,0 +1,286 @@
+{
+  "classes": [
+    {
+      "id": "gladiator",
+      "name": "Gladiator",
+      "armor": "Plate",
+      "weapon": "Greatsword",
+      "role": "Melee DPS",
+      "base_stats": {
+        "might": 24,
+        "precision": 18,
+        "agility": 14,
+        "intelligence": 10
+      },
+      "active_skills": [
+        {
+          "id": "glad_overhead_slam",
+          "name": "Overhead Slam",
+          "unlock_level": 1,
+          "cooldown": 6,
+          "resource": "MP",
+          "cost": 45,
+          "description": "Slam down your greatsword dealing physical damage."
+        },
+        {
+          "id": "glad_rage_burst",
+          "name": "Rage Burst",
+          "unlock_level": 3,
+          "cooldown": 12,
+          "resource": "MP",
+          "cost": 60,
+          "description": "Unleashes built-up fury in a frontal cone attack."
+        },
+        {
+          "id": "glad_rending_blow",
+          "name": "Rending Blow",
+          "unlock_level": 8,
+          "cooldown": 8,
+          "resource": "MP",
+          "cost": 50,
+          "description": "Slashes the target, applying a physical damage bleed over time."
+        }
+      ],
+      "specialty_milestones": {
+        "glad_overhead_slam": {
+          "level_16": {
+            "name": "Ruinous Impact",
+            "type": "Major",
+            "effect": "Removes cast time and increases raw baseline damage multiplier by 40%."
+          }
+        }
+      }
+    },
+    {
+      "id": "templar",
+      "name": "Templar",
+      "armor": "Plate",
+      "weapon": "Sword & Shield",
+      "role": "Tank",
+      "base_stats": {
+        "might": 26,
+        "precision": 14,
+        "agility": 12,
+        "intelligence": 10
+      },
+      "active_skills": [
+        {
+          "id": "temp_judgment",
+          "name": "Judgment",
+          "unlock_level": 1,
+          "cooldown": 8,
+          "resource": "MP",
+          "cost": 40,
+          "description": "Strikes the target with absolute defensive weight. Generates bonus threat."
+        },
+        {
+          "id": "temp_vicious_strike",
+          "name": "Vicious Strike",
+          "unlock_level": 4,
+          "cooldown": 5,
+          "resource": "MP",
+          "cost": 30,
+          "description": "Quick forward thrust that lowers the targeted enemy's physical defense."
+        }
+      ]
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "armor": "Cloth",
+      "weapon": "Magicbook",
+      "role": "Magic DPS",
+      "base_stats": {
+        "might": 10,
+        "precision": 16,
+        "agility": 12,
+        "intelligence": 28
+      },
+      "active_skills": [
+        {
+          "id": "sorc_hellfire",
+          "name": "Hellfire",
+          "unlock_level": 1,
+          "cooldown": 12,
+          "resource": "MP",
+          "cost": 140,
+          "description": "Deals massive elemental fire damage to a single target."
+        },
+        {
+          "id": "sorc_flame_arrow",
+          "name": "Flame Arrow",
+          "unlock_level": 2,
+          "cooldown": 2.5,
+          "resource": "MP",
+          "cost": 45,
+          "description": "Fires a rapid succession of incendiary sparks."
+        }
+      ],
+      "specialty_milestones": {
+        "sorc_hellfire": {
+          "level_16": {
+            "name": "Instant Incineration",
+            "type": "Major",
+            "effect": "Removes cast time entirely and guarantees a critical hit event."
+          }
+        }
+      }
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "armor": "Leather",
+      "weapon": "Longbow",
+      "role": "Ranged DPS",
+      "base_stats": {
+        "might": 14,
+        "precision": 26,
+        "agility": 18,
+        "intelligence": 10
+      },
+      "active_skills": [
+        {
+          "id": "rng_deadshot",
+          "name": "Deadshot",
+          "unlock_level": 1,
+          "cooldown": 4.5,
+          "resource": "MP",
+          "cost": 55,
+          "description": "A swift piercing arrow shot that adds physical bleeding effect."
+        },
+        {
+          "id": "rng_drill_shot",
+          "name": "Drill Shot",
+          "unlock_level": 5,
+          "cooldown": 10,
+          "resource": "MP",
+          "cost": 75,
+          "description": "Heavy channeled projectile that penetrates multiple lining enemies."
+        }
+      ]
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "armor": "Chain",
+      "weapon": "Mace & Shield",
+      "role": "Healer",
+      "base_stats": {
+        "might": 14,
+        "precision": 12,
+        "agility": 12,
+        "intelligence": 24
+      },
+      "active_skills": [
+        {
+          "id": "cler_condemnation",
+          "name": "Condemnation",
+          "unlock_level": 1,
+          "cooldown": 7,
+          "resource": "MP",
+          "cost": 90,
+          "description": "Strikes the foe, turning 20% of damage dealt into an instant burst party heal."
+        },
+        {
+          "id": "cler_light_renewal",
+          "name": "Light of Renewal",
+          "unlock_level": 3,
+          "cooldown": 4,
+          "resource": "MP",
+          "cost": 110,
+          "description": "Heals a chosen friendly target and leaves a recovery buff."
+        }
+      ]
+    },
+    {
+      "id": "chanter",
+      "name": "Chanter",
+      "armor": "Chain",
+      "weapon": "Staff",
+      "role": "Support / Hybrid",
+      "base_stats": {
+        "might": 18,
+        "precision": 16,
+        "agility": 14,
+        "intelligence": 18
+      },
+      "active_skills": [
+        {
+          "id": "chant_undefeated_mantra",
+          "name": "Undefeated Mantra",
+          "unlock_level": 1,
+          "cooldown": 30,
+          "resource": "MP",
+          "cost": 150,
+          "description": "Channels a 20m aura boosting combat speed and velocity stats."
+        },
+        {
+          "id": "chant_meteor_strike",
+          "name": "Meteor Strike",
+          "unlock_level": 6,
+          "cooldown": 14,
+          "resource": "MP",
+          "cost": 85,
+          "description": "Leaps forward slamming the staff to trigger wide staggers."
+        }
+      ]
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "armor": "Leather",
+      "weapon": "Dual Daggers",
+      "role": "Melee Burst DPS",
+      "base_stats": {
+        "might": 16,
+        "precision": 22,
+        "agility": 22,
+        "intelligence": 10
+      },
+      "active_skills": [
+        {
+          "id": "sin_heart_gore",
+          "name": "Heart Gore",
+          "unlock_level": 1,
+          "cooldown": 10,
+          "resource": "MP",
+          "cost": 50,
+          "description": "Ambush pierce from behind dealing scaled damage per stack of toxic poison."
+        }
+      ]
+    },
+    {
+      "id": "spiritmaster",
+      "name": "Spiritmaster",
+      "armor": "Cloth",
+      "weapon": "Orb",
+      "role": "Summoner / Control DPS",
+      "base_stats": {
+        "might": 10,
+        "precision": 14,
+        "agility": 14,
+        "intelligence": 26
+      },
+      "active_skills": [
+        {
+          "id": "sm_elemental_fusion",
+          "name": "Elemental Fusion",
+          "unlock_level": 1,
+          "cooldown": 20,
+          "resource": "MP",
+          "cost": 130,
+          "description": "Combines active elemental entities into an explosive wave strike."
+        },
+        {
+          "id": "sm_cold_shock",
+          "name": "Cold Shock",
+          "unlock_level": 2,
+          "cooldown": 4.5,
+          "resource": "MP",
+          "cost": 40,
+          "description": "Water burst dealing magic damage and snaring movement parameters."
+        }
+      ]
+    }
+  ]
+}

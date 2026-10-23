@@ -2,16 +2,14 @@
   "region": "Global",
   "referenceClient": "2.0.4",
   "sourceUrl": "https://metaroad.gg/aion2/database",
-  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "extractionScope": "MetaRoad database pages only; no build guides, news, recommended builds or site-owned assets",
   "verifiedAgainstGame": false,
   "generatedDate": "2026-10-23",
   "sources": [
-    "https://metaroad.gg/aion2/database",
-    "https://metaroad.gg/aion2/news/aion-2-global-client-datamine-what-the-launch-build-contains",
-    "https://metaroad.gg/aion2/news/metaroad-launches-its-aion-2-section-guides-database-and-build-planner"
+    "https://metaroad.gg/aion2/database"
   ],
   "completeness": "partial",
-  "notes": "Counts are site-reported and not independently checked against game client. Empty arrays are intentionally not represented as complete datasets. This increment adds individually sourced Gladiator skill facts, sample level stats, class deep-links and Global board unlocks. Do not conflate rank-8 alternatives with three fixed colors: game mapping remains unverified. Added 22 partial Chanter factual skill entries with source links; unknown values are null. Global client progression and selected Sorcerer/Cleric guide recommendations are recorded as separate sourced factual references; guides are not canonical skill records. Added 14 sourced Templar skill entries from the database, without build guide recommendations.",
+  "notes": "Database-only policy. Existing class imports are partial and must not be presented as complete. New class batches must cover all listed skills and variants or explicitly remain unpublished as staging. Unknown values remain null. Skill rank requirements are preserved as shown by the database; effective ranks may include boards, gear and Arcana.",
   "files": [
     "classes.json",
     "skills.json",
@@ -29,8 +27,6 @@
     "gladiator-class-facts.json",
     "chanter-skill-facts.json",
     "global-progression-facts.json",
-    "sorcerer-guide-facts.json",
-    "cleric-guide-facts.json",
     "templar-skill-facts.json"
   ]
 }

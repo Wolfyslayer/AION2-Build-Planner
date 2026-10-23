@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <main className="hero"><p className="gold">AION 2 • BUILD INTELLIGENCE</p><h1>Build your path.<br/><span>Master your class.</span></h1><p>Plan your skills, track your points, and save your progress.</p><Link className="cta" href="/builder">Open Build Planner →</Link></main>}

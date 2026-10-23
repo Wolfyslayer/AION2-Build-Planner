@@ -1,0 +1,45 @@
+name: Auto-merge validated data imports
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  merge-data-only:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate origin, PR head and changed paths before merging
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,os,subprocess,sys
+          repo=os.environ['REPO']
+          def gh(*args):
+              return json.loads(subprocess.check_output(['gh','api',*args],text=True))
+          run=gh(f"repos/{repo}/actions/runs/{os.environ['RUN_ID']}")
+          if run['head_repository']['full_name']!=repo:sys.exit("Skipping external repository")
+          prs=run.get('pull_requests') or []
+          if not prs:sys.exit("No associated PR")
+          for candidate in prs:
+              n=candidate['number']
+              pr=gh(f"repos/{repo}/pulls/{n}")
+              if pr['state']!='open' or pr['base']['ref']!='main':continue
+              if pr['head']['repo']['full_name']!=repo:continue
+              if pr['head']['sha']!=os.environ['HEAD_SHA']:continue
+              if not pr['head']['ref'].startswith('data-import/'):continue
+              files=gh(f"repos/{repo}/pulls/{n}/files?per_page=100")
+              if not files or len(files)>=100:continue
+              if any(f['status'] not in ('added','modified') or not f['filename'].startswith('data/metaroad-public/') or not f['filename'].endswith('.json') for f in files):continue
+              if pr.get('draft'):continue
+              print(f"Validated data-only PR #{n}; merging exact CI-tested SHA")
+              subprocess.check_call(['gh','api','-X','PUT',f'repos/{repo}/pulls/{n}/merge','-f','merge_method=squash','-f',f"sha={os.environ['HEAD_SHA']}"])
+          PY

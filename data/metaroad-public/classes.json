@@ -1,0 +1,81 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "sourceUrl": "https://metaroad.gg/aion2/database",
+  "extractionScope": "Public factual summaries only; not a complete database dump",
+  "verifiedAgainstGame": false,
+  "classes": [
+    {
+      "id": "templar",
+      "name": "Templar",
+      "role": "Tank",
+      "weapon": "Sword",
+      "reportedSkillCount": 47,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "gladiator",
+      "name": "Gladiator",
+      "role": "Tank / Dealer",
+      "weapon": "Greatsword",
+      "reportedSkillCount": 58,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "role": "Dealer",
+      "weapon": "Dagger",
+      "reportedSkillCount": 50,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "role": "Dealer",
+      "weapon": "Bow",
+      "reportedSkillCount": 55,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "role": "Dealer",
+      "weapon": "Magicbook",
+      "reportedSkillCount": 55,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "spiritmaster",
+      "name": "Spiritmaster",
+      "role": "Dealer",
+      "weapon": "Orb",
+      "reportedSkillCount": 125,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "role": "Healer",
+      "weapon": "Mace",
+      "reportedSkillCount": 44,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    },
+    {
+      "id": "chanter",
+      "name": "Chanter",
+      "role": "Healer / Dealer",
+      "weapon": "Staff",
+      "reportedSkillCount": 47,
+      "reportedBoardCount": 5,
+      "sourceUrl": "https://metaroad.gg/aion2/database"
+    }
+  ]
+}

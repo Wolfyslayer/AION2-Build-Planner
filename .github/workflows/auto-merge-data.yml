@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import json,os,subprocess,sys
+          import base64,json,os,subprocess,sys
           repo=os.environ['REPO']
           def gh(*args):
               return json.loads(subprocess.check_output(['gh','api',*args],text=True))
@@ -40,6 +40,14 @@ jobs:
               if not files or len(files)>=100:continue
               if any(f['status'] not in ('added','modified') or not f['filename'].startswith('data/metaroad-public/') or not f['filename'].endswith('.json') for f in files):continue
               if pr.get('draft'):continue
+              for file in files:
+                  path=file['filename']
+                  obj=gh(f"repos/{repo}/contents/{path}?ref={os.environ['HEAD_SHA']}")
+                  if obj.get('encoding')!='base64':sys.exit(f"Cannot validate {path}")
+                  data=base64.b64decode(obj['content'])
+                  if len(data)>2000000:sys.exit(f"Oversized JSON: {path}")
+                  parsed=json.loads(data)
+                  if not isinstance(parsed,(dict,list)):sys.exit(f"Invalid root in {path}")
               print(f"Validated data-only PR #{n}; merging exact CI-tested SHA")
               subprocess.check_call(['gh','api','-X','PUT',f'repos/{repo}/pulls/{n}/merge','-f','merge_method=squash','-f',f"sha={os.environ['HEAD_SHA']}"])
           PY

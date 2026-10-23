@@ -1,0 +1,115 @@
+{
+  "classId": "templar",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "status": "staging-not-runtime",
+  "verifiedFrom": "public-skill-list",
+  "notes": "Source-visible base effects and specialization labels for three previously indexed skills. Not 58 individually verified variants; unknown values are not inferred.",
+  "skills": [
+    {
+      "name": "Pummel",
+      "type": "Active",
+      "variantCount": 26,
+      "attackCoefficientPercent": 119.5,
+      "flatDamage": 93,
+      "hits": 3,
+      "mpCost": 120,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "summary": "Deals 119.5% ATK + 93 damage per hit (3 hits) to up to 4 enemies within 4m, increases Enmity and deals 3 Stagger Gauge Damage.",
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "-20% MP consumed"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Punishing Strike absorbs HP; percentage unavailable"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Up to 12% more damage when fewer targets are hit"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-1s Punishment cooldown on hit"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "Punishing Strike grants extra damage on hit"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Doom Shield",
+      "type": "Active",
+      "variantCount": 6,
+      "attackCoefficientPercent": 219,
+      "flatDamage": 1254,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "summary": "Rushes to a target within 20m, deals 219% ATK + 1254 damage and has a 75% chance to Knockdown for 3s. Grants a 5% Max HP protective shield for 5s on hit; triggers Judgment for 3s. Knockdown is guaranteed against NPC targets; 20 Stagger Gauge Damage.",
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "Resets Annihilate cooldown on hit"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+200 Block for 5s on hit"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "Resets cooldown on defeating an enemy"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+25% Knockdown Chance"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    },
+    {
+      "name": "Shield Smite",
+      "type": "Active",
+      "variantCount": 26,
+      "attackCoefficientPercent": 175.75,
+      "flatDamage": 173,
+      "mpCost": 100,
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "summary": "Deals 175.75% ATK + 173 damage to up to 4 enemies within 4m; 60% chance to Stun for 3s (guaranteed against NPC targets). Triggers Judgment for 2s; 10 Stagger Gauge Damage.",
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "+1s Stun duration"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Removes MP cost and restores 200 MP on hit"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "50% chance to trigger Debilitating Smash on hit"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-2s cooldown"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "AoE Stun"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+      "verifiedVariantCount": null,
+      "verifiedSpecializations": false
+    }
+  ]
+}

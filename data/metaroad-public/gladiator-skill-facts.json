@@ -1,0 +1,101 @@
+{
+  "region": "Global",
+  "referenceClient": "2.0.4",
+  "verifiedAgainstGame": false,
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/gladiator",
+  "note": "Publicly reported facts, not an exhaustive extraction; independently verify against current game patch.",
+  "skills": [
+    {
+      "name": "Focused Block",
+      "type": "Active",
+      "cooldownSeconds": 20,
+      "weapon": "Greatsword",
+      "specializations": [
+        {
+          "rank": 5,
+          "effect": "+1 consecutive use"
+        },
+        {
+          "rank": 10,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "rank": 15,
+          "effect": "+20% Move Speed for 3s on Parry"
+        },
+        {
+          "rank": 20,
+          "effect": "Restores 10% HP once on Parry"
+        }
+      ]
+    },
+    {
+      "name": "Blood Absorption",
+      "type": "Active",
+      "cooldownSeconds": 40,
+      "weapon": "Greatsword",
+      "durationSeconds": 12
+    },
+    {
+      "name": "Armor of Balance",
+      "type": "Active",
+      "cooldownSeconds": 90,
+      "weapon": "Greatsword",
+      "specializations": [
+        {
+          "rank": 5,
+          "effect": "+20% Ailment-type and Mental-type Resist"
+        },
+        {
+          "rank": 10,
+          "effect": "x1.5 Blood Absorption effect for duration"
+        },
+        {
+          "rank": 15,
+          "effect": "x1.5 Protection Armor effect for duration"
+        },
+        {
+          "rank": 20,
+          "effect": "+50% additional Impact-type Resist"
+        }
+      ]
+    },
+    {
+      "name": "Intimidating Roar",
+      "type": "Active",
+      "cooldownSeconds": 45
+    },
+    {
+      "name": "Overhead Slam",
+      "type": "Active",
+      "cooldownSeconds": 5,
+      "rangeMeters": 4,
+      "attackRatioPercent": 163.6,
+      "flatDamage": 174,
+      "hits": 2,
+      "weapon": "Greatsword",
+      "specializations": [
+        {
+          "rank": 8,
+          "effect": "Absorbs HP, percentage unspecified"
+        },
+        {
+          "rank": 8,
+          "effect": "Changes to AoE Skill"
+        },
+        {
+          "rank": 8,
+          "effect": "Adds Upward Strike Chain Skill"
+        },
+        {
+          "rank": 12,
+          "effect": "Critical Hit on hit"
+        },
+        {
+          "rank": 16,
+          "effect": "Remove cooldown"
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "https://metaroad.gg/aion2/news/metaroad-launches-its-aion-2-section-guides-database-and-build-planner"
   ],
   "completeness": "partial",
-  "notes": "Counts are site-reported and not independently checked against game client. Empty arrays are intentionally not represented as complete datasets.",
+  "notes": "Counts are site-reported and not independently checked against game client. Empty arrays are intentionally not represented as complete datasets. This increment adds individually sourced Gladiator skill facts, sample level stats, class deep-links and Global board unlocks. Do not conflate rank-8 alternatives with three fixed colors: game mapping remains unverified.",
   "files": [
     "classes.json",
     "skills.json",
@@ -22,6 +22,10 @@
     "item-sets.json",
     "collectibles.json",
     "crafting.json",
-    "world.json"
+    "world.json",
+    "board-unlocks.json",
+    "class-links.json",
+    "gladiator-skill-facts.json",
+    "gladiator-class-facts.json"
   ]
 }

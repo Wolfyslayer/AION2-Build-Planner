@@ -1,6 +1,12 @@
 import index from "../data/metaroad-public/templar-full-index-staging.json";
 import facts from "../data/metaroad-public/templar-skill-facts.json";
+import batch01 from "../data/metaroad-public/templar-detail-batch-01.json";
+import batch02 from "../data/metaroad-public/templar-detail-batch-02.json";
+import batch03 from "../data/metaroad-public/templar-detail-batch-03.json";
+import batch04 from "../data/metaroad-public/templar-detail-batch-04.json";
+import batch05 from "../data/metaroad-public/templar-detail-batch-05.json";
 export type TemplarEvidenceRow={name:string;type:string;variantCount:number;detailPresent:boolean;specializationEntries:number;variantDetailsVerified:false};
-const details=new Map(facts.skills.map(skill=>[skill.name,skill]));
-export const templarEvidence:TemplarEvidenceRow[]=index.skills.map(skill=>({name:skill.name,type:skill.type,variantCount:skill.variantCount,detailPresent:details.has(skill.name),specializationEntries:details.get(skill.name)?.specializations.length??0,variantDetailsVerified:false}));
-export const templarEvidenceSummary={indexed:templarEvidence.length,withPartialDetails:templarEvidence.filter(s=>s.detailPresent).length,withoutDetails:templarEvidence.filter(s=>!s.detailPresent).length,unmatchedDetailNames:facts.skills.filter(s=>!index.skills.some(x=>x.name===s.name)).map(s=>s.name),unresolvedSkillCount:index.databaseReportedSkillCount-index.skills.length,unresolvedVariantCount:index.databaseReportedVariantCount-index.skills.reduce((n,s)=>n+s.variantCount,0)};
+const allSkills=[...facts.skills,...batch01.skills,...batch02.skills,...batch03.skills,...batch04.skills,...batch05.skills];
+const details=new Map<string, { specializationCount: number }>(allSkills.map(skill=>[skill.name, { specializationCount: ('specializations' in skill && Array.isArray(skill.specializations)) ? skill.specializations.length : 0 }]));
+export const templarEvidence:TemplarEvidenceRow[]=index.skills.map(skill=>({name:skill.name,type:skill.type,variantCount:skill.variantCount,detailPresent:details.has(skill.name),specializationEntries:(details.get(skill.name)?.specializationCount ?? 0),variantDetailsVerified:false}));
+export const templarEvidenceSummary={indexed:templarEvidence.length,withPartialDetails:templarEvidence.filter(s=>s.detailPresent).length,withoutDetails:templarEvidence.filter(s=>!s.detailPresent).length,unmatchedDetailNames:allSkills.filter(s=>!index.skills.some(x=>x.name===s.name)).map(s=>s.name),unresolvedSkillCount:index.databaseReportedSkillCount-index.skills.length,unresolvedVariantCount:index.databaseReportedVariantCount-index.skills.reduce((n,s)=>n+s.variantCount,0)};

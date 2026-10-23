@@ -1,4 +1,4 @@
-export type StagedSkill={name:string;variantCount:number};
+export type StagedSkill={name:string;variantCount:number;verifiedVariantCount?:number;verifiedSpecializations?:boolean};
 export type StagedClassIndex={status:string;databaseReportedSkillCount:number;databaseReportedVariantCount:number;skills:StagedSkill[]};
 export type CompletenessAudit={complete:boolean;listedSkills:number;listedVariants:number;missingSkills:number;missingVariants:number;reasons:string[]};
 export function auditStagedClass(index:StagedClassIndex):CompletenessAudit{
@@ -10,6 +10,8 @@ export function auditStagedClass(index:StagedClassIndex):CompletenessAudit{
  if(index.status!=="verified-complete")reasons.push("Class index is not marked verified-complete");
  if(new Set(names).size!==names.length||names.some(n=>!n))reasons.push("Duplicate or empty skill names");
  if(index.skills.some(s=>!Number.isInteger(s.variantCount)||s.variantCount<=0))reasons.push("Invalid variant counts");
+ if(index.skills.some(s=>s.verifiedVariantCount!==s.variantCount))reasons.push("Not all individual variants have been verified");
+ if(index.skills.some(s=>s.verifiedSpecializations!==true))reasons.push("Skill specializations are not verified");
  if(missingSkills!==0)reasons.push("Skill count differs from database header");
  if(missingVariants!==0)reasons.push("Variant count differs from database header");
  return {complete:reasons.length===0,listedSkills:index.skills.length,listedVariants,missingSkills,missingVariants,reasons};

@@ -5,7 +5,7 @@
   "databaseReportedSkillCount": 47,
   "databaseReportedVariantCount": 498,
   "extractedSkillCount": 46,
-  "notes": "Page-listed skill names, displayed classification and variant counts only. Variants and full specialization details not imported. Basic Attack has no displayed classification; Unknown is intentional. No runtime publication until full validation.",
+  "notes": "Page header reports 47 skills / 498 variants, but independently enumerating all visible headings gives 46 skills / 492 variants. The discrepancy of one 6-variant entry remains unresolved; this index must NOT be treated as complete. Basic Attack classification is not displayed. Variant internals and full specialization details not imported.",
   "skills": [
     {
       "name": "Basic Attack",
@@ -283,5 +283,9 @@
       "variantCount": 1,
       "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
     }
-  ]
+  ],
+  "unresolvedDiscrepancy": {
+    "missingSkillCount": 1,
+    "missingVariantCount": 6
+  }
 }

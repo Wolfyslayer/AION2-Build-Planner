@@ -1,0 +1,287 @@
+{
+  "classId": "templar",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "status": "staging-not-runtime",
+  "databaseReportedSkillCount": 47,
+  "databaseReportedVariantCount": 498,
+  "extractedSkillCount": 46,
+  "notes": "Page-listed skill names, displayed classification and variant counts only. Variants and full specialization details not imported. Basic Attack has no displayed classification; Unknown is intentional. No runtime publication until full validation.",
+  "skills": [
+    {
+      "name": "Basic Attack",
+      "type": "Unknown",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Dodge",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Vicious Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Decisive Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Desperate Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Pummel",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishing Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Doom Shield",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishment",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishment - Level 1",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishment - Level 2",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishment - Max",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield Smite",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield of Protection",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Taunt",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Poach",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Second Skin",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Armor of Balance",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Grapple",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Noble Armor",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Judgment",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Comrade in Arms",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Defiance",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Debilitating Smash",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Annihilate",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Empyrean Lord's Punishment",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Nezekan's Shield",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Capture",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Flash Rampage",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Warding Strike",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Executing Blade",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Blade Storm",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield Rush",
+      "type": "Active",
+      "variantCount": 26,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield Rush - Max",
+      "type": "Active",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Threatening Blow",
+      "type": "Active",
+      "variantCount": 12,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Assault Fury",
+      "type": "Active",
+      "variantCount": 6,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Enhance Health",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Warding Shield",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Punishing Benediction",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Ironclad Defense",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Guarding Seal",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Impact Hit",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Insulting Roar",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Fury",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Survival Willpower",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Block Pain",
+      "type": "Passive",
+      "variantCount": 1,
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    }
+  ]
+}

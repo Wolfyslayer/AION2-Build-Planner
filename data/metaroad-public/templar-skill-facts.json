@@ -1,0 +1,400 @@
+{
+  "classId": "templar",
+  "region": "Global",
+  "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar",
+  "sourceType": "MetaRoad public skills database only",
+  "completeness": "partial",
+  "reportedTotalSkills": 47,
+  "notes": "14 individually transcribed database entries. Null values unknown. Skill levels 5/10/15/20 on some entries contradict the universal 10/14 rank claim; these are retained as displayed and require validation. No guide content, icons or site code copied.",
+  "skills": [
+    {
+      "name": "Vicious Strike",
+      "type": "Active",
+      "attackCoefficientPercent": 94.8,
+      "flatDamage": 79,
+      "cooldownSeconds": null,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "+20% MP restored"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "HP absorption (value unavailable)"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-2s Warding Strike cooldown on hit"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "Adds Threatening Blow chain skill"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Pummel",
+      "type": "Active",
+      "attackCoefficientPercent": 119.5,
+      "flatDamage": 93,
+      "cooldownSeconds": null,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "-20% MP consumed"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Punishing Strike HP absorption (value unavailable)"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Up to 12% more damage against fewer targets"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-1s Punishment cooldown on hit"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "Punishing Strike extra damage on hit"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Doom Shield",
+      "type": "Active",
+      "attackCoefficientPercent": 219,
+      "flatDamage": 1254,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "Resets Annihilate cooldown on hit"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+200 Block for 5s"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "Resets cooldown on enemy defeat"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+25% Knockdown Chance"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield Smite",
+      "type": "Active",
+      "attackCoefficientPercent": 175.75,
+      "flatDamage": 173,
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "+1s Stun duration"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Removes MP cost and restores 200 MP on hit"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "50% chance to trigger Debilitating Smash"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-2s cooldown"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "AoE Stun"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Taunt",
+      "type": "Active",
+      "attackCoefficientPercent": 155,
+      "flatDamage": 888,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "Adds PvE/PvP Damage Tolerance reduction to Shrink"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "+10% Shrink Attack reduction"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "-5s cooldown"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+2s Taunt duration, +5s Shrink duration"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Poach",
+      "type": "Active",
+      "attackCoefficientPercent": 87.5,
+      "flatDamage": 49,
+      "cooldownSeconds": 15,
+      "rangeMeters": 20,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "Moves to target if target has Incapacitated Immunity"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "-20% Status Effect Resist for 5s"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Resets cooldown on defeating enemy"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "10% Max HP Protective Shield"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "50% chance to Stun for 3s"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Grapple",
+      "type": "Active",
+      "attackCoefficientPercent": 182.5,
+      "flatDamage": 1045,
+      "cooldownSeconds": 90,
+      "rangeMeters": 20,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "50% chance to Stun for 3s"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "20% Max HP Protective Shield for 10s"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "-30s cooldown"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "Up to +20% PvE and +10% PvP Damage Tolerance when more targets hit"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Noble Armor",
+      "type": "Active",
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "cooldownSeconds": 120,
+      "rangeMeters": null,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "+5% Defense"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "x1.5 Insulting Roar effect"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "x1.5 Fury effect"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+10% Incoming Heal"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Annihilate",
+      "type": "Active",
+      "attackCoefficientPercent": 321.75,
+      "flatDamage": 791,
+      "cooldownSeconds": 20,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "+20% Knockdown Chance"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "+100% damage against targets with Incapacitated Immunity"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-10s cooldown"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "Changes to AoE skill"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Judgment",
+      "type": "Active",
+      "attackCoefficientPercent": 229.5,
+      "flatDamage": 227,
+      "cooldownSeconds": 5,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "HP absorption (value unavailable)"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Extra damage against Impact-type status"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Extra damage on hit"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "Critical Hit on hit"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "Removes cooldown"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield Rush",
+      "type": "Active",
+      "attackCoefficientPercent": 105,
+      "flatDamage": 258,
+      "cooldownSeconds": 20,
+      "rangeMeters": 10,
+      "specializations": [
+        {
+          "requiredSkillRank": 8,
+          "effect": "Restores 300 Stamina on hit"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "+10m range"
+        },
+        {
+          "requiredSkillRank": 8,
+          "effect": "Changes to Charge skill and AoE damage"
+        },
+        {
+          "requiredSkillRank": 12,
+          "effect": "-10s cooldown"
+        },
+        {
+          "requiredSkillRank": 16,
+          "effect": "+25% Stun Chance"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Executing Blade",
+      "type": "Active",
+      "attackCoefficientPercent": 233,
+      "flatDamage": 1335,
+      "cooldownSeconds": 45,
+      "rangeMeters": 4,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "-15s cooldown"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "Inflicts Exposed for 5s"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "Critical Hit on hit"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "+30% damage against Impact-type status"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Blade Storm",
+      "type": "Active",
+      "attackCoefficientPercent": 205,
+      "flatDamage": 1174,
+      "cooldownSeconds": 90,
+      "rangeMeters": 10,
+      "specializations": [],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    },
+    {
+      "name": "Shield of Protection",
+      "type": "Active",
+      "attackCoefficientPercent": null,
+      "flatDamage": null,
+      "cooldownSeconds": 20,
+      "rangeMeters": null,
+      "specializations": [
+        {
+          "requiredSkillRank": 5,
+          "effect": "+1 consecutive use"
+        },
+        {
+          "requiredSkillRank": 10,
+          "effect": "Mobile skill"
+        },
+        {
+          "requiredSkillRank": 15,
+          "effect": "+20% Move Speed for 3s on Block"
+        },
+        {
+          "requiredSkillRank": 20,
+          "effect": "Restores 10% HP once on Block"
+        }
+      ],
+      "sourceUrl": "https://metaroad.gg/aion2/database/skills/templar"
+    }
+  ]
+}

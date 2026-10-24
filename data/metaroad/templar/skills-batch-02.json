@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "class": "Templar",
+  "source": {
+    "provider": "MetaRoad",
+    "url": "https://metaroad.gg/aion2/database/skills/templar"
+  },
+  "importScope": "Next five displayed skill headings; individual variants not separately imported",
+  "skills": [
+    {
+      "name": "Pummel",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 119.5% ATK + 93 per hit (3 hits) damage to up to 4 enemies within 4m and increases Enmity. 3 Stagger Gauge Damage",
+      "attackRatioPercent": 119.5,
+      "flatDamage": 93,
+      "hits": 3,
+      "mpCost": 120,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "-20% MP consumed"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "[Punishing Strike] absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Deals up to 12% more damage when less targets are hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-1s [Punishment] cooldown on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "[Punishing Strike] grants extra damage on hit"
+        }
+      ]
+    },
+    {
+      "name": "Punishing Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 138.5% ATK + 103 damage to up to 4 enemies within 4m and increases Enmity. 5 Stagger Gauge Damage",
+      "attackRatioPercent": 138.5,
+      "flatDamage": 103,
+      "mpCost": 120,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "-20% MP consumed"
+        },
+        {
+          "effect": "[Punishing Strike] absorbs —% HP"
+        },
+        {
+          "effect": "Deals up to 12% more damage when less targets are hit"
+        },
+        {
+          "effect": "-1s [Punishment] cooldown on hit"
+        },
+        {
+          "effect": "Extra damage on hit"
+        }
+      ]
+    },
+    {
+      "name": "Doom Shield",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack",
+        "Buff"
+      ],
+      "variantCount": 6,
+      "description": "Rushes to a target within 20m and deals 219% ATK + 1254 damage. Has a 75% chance to inflict Knockdown for 3s. Grants a Protective Shield that blocks damage equaling 5% Max HP for 5s on hit. Triggers [Judgment] for 3s. 100% chance to inflict Knockdown on NPC targets. 20 Stagger Gauge Damage",
+      "attackRatioPercent": 219,
+      "flatDamage": 1254,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Resets [Annihilate] cooldown on hit"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+200 Block for 5s on hit"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "Resets cooldown on defeating an enemy"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+25% Knockdown Chance"
+        }
+      ]
+    },
+    {
+      "name": "Punishment",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Selects a target within 20m and deals 430.5–1291.5% ATK + 1394–4184 damage to up to 4 enemies within 4m of the target and grants the Executor effect to the caster for 20s. Executor: Increases Accuracy by 200, PvE Damage Boost by 20%, and PvP Damage Boost by 10% Max 3 Charge Levels 20-35 Stagger Gauge Damage",
+      "attackRatioPercent": 430.5,
+      "flatDamage": 1394,
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Inflicts Damage over Time to target on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+30% Skill Speed"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Ignores Block and Evasion and lands as a Critical Hit"
+        }
+      ]
+    },
+    {
+      "name": "Shield Smite",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack",
+        "Debuff"
+      ],
+      "variantCount": 26,
+      "description": "Deals 175.75% ATK + 173 damage to up to 4 enemies within 4m. Has a 60% chance to inflict Stun on the target for 3s. Triggers [Judgment] for 2s. 100% chance to inflict Stun on NPC targets. 10 Stagger Gauge Damage",
+      "attackRatioPercent": 175.75,
+      "flatDamage": 173,
+      "mpCost": 100,
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "+1s Stun duration"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Removes MP Cost and restores 200 MP on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "50% chance to trigger [Debilitating Smash] on hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-2s cooldown"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "AoE Stun"
+        }
+      ]
+    }
+  ]
+}

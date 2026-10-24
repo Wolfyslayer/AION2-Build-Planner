@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "provider": "MetaRoad",
+    "urls": [
+      "https://metaroad.gg/aion2/progression/aion-2-gear-ladder-and-gear-sources",
+      "https://metaroad.gg/aion2/database/items/helmet/equip_ar_helmet_d_r_dropboss_019a_s",
+      "https://metaroad.gg/aion2/database/items/necklace"
+    ]
+  },
+  "notes": "23 non-Arcana equipment slots. Shared dropdown stat vocabulary is observed in MetaRoad item examples, but not every stat is verified as eligible on every slot. These are user-defined hypothetical gear configurations, not real item rolls.",
+  "slots": [
+    {
+      "id": "weapon",
+      "label": "Weapon"
+    },
+    {
+      "id": "guard",
+      "label": "Guard"
+    },
+    {
+      "id": "helmet",
+      "label": "Helmet"
+    },
+    {
+      "id": "shoulders",
+      "label": "Shoulders"
+    },
+    {
+      "id": "chest",
+      "label": "Chest"
+    },
+    {
+      "id": "pants",
+      "label": "Pants"
+    },
+    {
+      "id": "gloves",
+      "label": "Gloves"
+    },
+    {
+      "id": "boots",
+      "label": "Boots"
+    },
+    {
+      "id": "cloak",
+      "label": "Cloak"
+    },
+    {
+      "id": "necklace",
+      "label": "Necklace"
+    },
+    {
+      "id": "amulet",
+      "label": "Amulet"
+    },
+    {
+      "id": "belt",
+      "label": "Belt"
+    },
+    {
+      "id": "earring1",
+      "label": "Earring 1"
+    },
+    {
+      "id": "earring2",
+      "label": "Earring 2"
+    },
+    {
+      "id": "ring1",
+      "label": "Ring 1"
+    },
+    {
+      "id": "ring2",
+      "label": "Ring 2"
+    },
+    {
+      "id": "bracelet1",
+      "label": "Bracelet 1"
+    },
+    {
+      "id": "bracelet2",
+      "label": "Bracelet 2"
+    },
+    {
+      "id": "brooch1",
+      "label": "Brooch 1"
+    },
+    {
+      "id": "brooch2",
+      "label": "Brooch 2"
+    },
+    {
+      "id": "rune1",
+      "label": "Rune 1"
+    },
+    {
+      "id": "rune2",
+      "label": "Rune 2"
+    },
+    {
+      "id": "pendant",
+      "label": "Pendant"
+    }
+  ],
+  "statOptions": [
+    "HP",
+    "MP",
+    "Attack",
+    "Defense",
+    "Accuracy",
+    "Evasion",
+    "Critical Hit",
+    "Critical Hit Resist",
+    "Block",
+    "Combat Speed",
+    "Might",
+    "Constitution",
+    "Dexterity",
+    "Willpower",
+    "Endurance",
+    "Incoming Heal",
+    "Double Chance",
+    "Attack increase",
+    "Perfect Resist",
+    "Status Effect Resist",
+    "Weapon Damage Tolerance",
+    "Critical Damage Defense",
+    "Back Defense",
+    "Front Defense",
+    "Natural MP Regen",
+    "Natural HP Regen"
+  ],
+  "defaultStatRows": 4
+}

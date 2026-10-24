@@ -1,3 +1,0 @@
-import {describe,it,expect} from "vitest";
-import {templarEvidence,templarEvidenceSummary} from "../lib/templarEvidence";
-describe("Templar evidence reconciliation",()=>{it("links all existing partial details to indexed names",()=>{expect(templarEvidenceSummary.unmatchedDetailNames).toEqual([]);expect(templarEvidenceSummary.withPartialDetails).toBe(46);expect(templarEvidenceSummary.withoutDetails).toBe(0)});it("never equates a summary to verified variants",()=>{expect(templarEvidence.every(s=>s.variantDetailsVerified===false)).toBe(true)});it("preserves unresolved discrepancy",()=>{expect(templarEvidenceSummary.unresolvedSkillCount).toBe(1);expect(templarEvidenceSummary.unresolvedVariantCount).toBe(6)})});

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "source": {
+    "provider": "MetaRoad",
+    "url": "https://metaroad.gg/aion2/database/skills/templar",
+    "policy": "MetaRoad values are treated as authoritative; unavailable fields are omitted.",
+    "reportedSkillCount": 47,
+    "reportedVariantCount": 498
+  },
+  "class": "Templar",
+  "importScope": "First five displayed skill entries; counts represent variants reported by MetaRoad, not separately imported variant records.",
+  "skills": [
+    {
+      "name": "Basic Attack",
+      "variantCount": 1
+    },
+    {
+      "name": "Dodge",
+      "type": "Active",
+      "variantCount": 1,
+      "description": "Evade by moving quickly in the desired direction.",
+      "cooldownSeconds": 0.5
+    },
+    {
+      "name": "Vicious Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 94.8% ATK + 79 damage to up to 4 enemies within 4m and increases Enmity. Restores 100 MP.",
+      "attackRatioPercent": 94.8,
+      "flatDamage": 79,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "+20% MP restored"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    },
+    {
+      "name": "Decisive Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 111.6% ATK + 88 damage to up to 4 enemies within 4m and increases Enmity. Restores 100 MP.",
+      "attackRatioPercent": 111.6,
+      "flatDamage": 88,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "+20% MP restored"
+        },
+        {
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    },
+    {
+      "name": "Desperate Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 133.2% ATK + 100 damage to up to 4 enemies within 4m and increases Enmity. Restores 120 MP.",
+      "attackRatioPercent": 133.2,
+      "flatDamage": 100,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "+20% MP restored"
+        },
+        {
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    }
+  ]
+}

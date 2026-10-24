@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "class": "Templar",
+  "type": "stigma",
+  "source": {
+    "provider": "MetaRoad",
+    "classificationUrl": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+    "detailsUrl": "https://metaroad.gg/aion2/database/skills/templar"
+  },
+  "slots": 4,
+  "stigmaMaxLevel": 20,
+  "knownStigmas": 8,
+  "completeness": "All Stigmas explicitly identified by name in MetaRoad's Templar PvE guide; MetaRoad does not publish an exhaustive class Stigma count on the cited database page, so exhaustiveness beyond this guide is not asserted.",
+  "stigmas": [
+    {
+      "name": "Shield of Protection",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Shield of Protection",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Temporarily increases Block Damage Reduction by 100% and guarantees Block. Restores 110 MP and Stamina once on Block.",
+        "cooldownSeconds": 20,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "+1 consecutive use"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "Changes to mobile skill"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "+20% Move Speed for 3s on Block"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "Restores 10% HP once on Block"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noble Armor",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Noble Armor",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Increases Max HP by 5.4% for 120s and immediately restores HP by 5.4% of Max HP. Not affected by buff dispel effects.",
+        "cooldownSeconds": 120,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "+5% Defense"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "x1.5 Insulting Roar effect"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "x1.5 Fury effect"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "+10% Incoming Heal"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taunt",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Taunt",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Deals 155% ATK + 888 damage to a target within 20m and increases Enmity. Inflicts Shrink for 15s on hit and has a 50% chance to inflict Taunt for 3s if the target is a player. Shrink reduces Accuracy by 200 and Attack by 10%.",
+        "cooldownSeconds": 30,
+        "rangeMeters": 20,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "Adds 10% PvE and 5% PvP Damage Tolerance reduction to Shrink"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "+10% Shrink Attack reduction"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "-5s cooldown"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "+2s Taunt duration, +5s Shrink duration"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Empyrean Lord's Punishment",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Empyrean Lord's Punishment",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Deals 164% ATK + 939 damage per hit (3 hits) to up to 4 enemies near a target within 20m; 50% Stun chance for 3s (guaranteed on NPCs).",
+        "mpCost": 200,
+        "cooldownSeconds": 60,
+        "rangeMeters": 20,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "Up to +20% damage when fewer targets hit"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "+50 Stagger Gauge Damage"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "+10% PvE and +5% PvP Damage Boost for 10s on hit"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "+25% Stun Chance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doom Shield",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Doom Shield",
+        "type": "Active",
+        "categories": [
+          "Physic",
+          "Attack",
+          "Buff"
+        ],
+        "variantCount": 6,
+        "description": "Rushes to a target within 20m and deals 219% ATK + 1254 damage. Has a 75% chance to inflict Knockdown for 3s. Grants a Protective Shield that blocks damage equaling 5% Max HP for 5s on hit. Triggers [Judgment] for 3s. 100% chance to inflict Knockdown on NPC targets. 20 Stagger Gauge Damage",
+        "attackRatioPercent": 219,
+        "flatDamage": 1254,
+        "cooldownSeconds": 30,
+        "rangeMeters": 20,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "Resets [Annihilate] cooldown on hit"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "+200 Block for 5s on hit"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "Resets cooldown on defeating an enemy"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "+25% Knockdown Chance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Battlefield Banner",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": null,
+      "detailStatus": "Not present in existing skill catalog; no values inferred"
+    },
+    {
+      "name": "Executing Blade",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Executing Blade",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Deals 233% ATK + 1335 damage to up to 4 enemies within 4m, reduces Defense by 30% for 5s and deals 20% more damage to targets with Impact-type status.",
+        "mpCost": 100,
+        "cooldownSeconds": 45,
+        "rangeMeters": 4,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "-15s cooldown"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "Inflict Exposed for 5s on hit"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "Critical Hit on hit"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "+30% damage on Impact-type afflicted targets"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nezekan's Shield",
+      "classificationSource": "https://metaroad.gg/aion2/build-guides/templar-pve-tank-build",
+      "skill": {
+        "name": "Nezekan's Shield",
+        "variantCount": 6,
+        "type": "Active",
+        "description": "Grants caster and party members within 40m a Protective Shield absorbing 41% Max HP for 3s.",
+        "cooldownSeconds": 60,
+        "weapon": "Sword",
+        "specializations": [
+          {
+            "requiredRank": 5,
+            "effect": "+20% all Element Tolerance for shield duration"
+          },
+          {
+            "requiredRank": 10,
+            "effect": "+2s shield duration"
+          },
+          {
+            "requiredRank": 15,
+            "effect": "+20% PvE and +10% PvP Damage Tolerance for shield duration"
+          },
+          {
+            "requiredRank": 20,
+            "effect": "Restores 20% Max HP when shield removed"
+          }
+        ]
+      }
+    }
+  ]
+}

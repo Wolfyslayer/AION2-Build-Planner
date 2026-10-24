@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "class": "Templar",
+  "source": {
+    "provider": "MetaRoad",
+    "url": "https://metaroad.gg/aion2/database/skills/templar",
+    "reportedSkillCount": 47,
+    "reportedVariantCount": 498
+  },
+  "scope": "All 46 skill headings visible on the public Templar skills page, with base descriptions and available properties. Variant counts are source-reported; individual variants are not separately enumerated.",
+  "importedSkillHeadings": 46,
+  "importedVariantCountSum": 492,
+  "discrepancy": "MetaRoad page header says 47 skills and 498 variants; 46 rendered skill headings add up to 492 variants. This import preserves all visible entries and does not invent an additional skill.",
+  "skills": [
+    {
+      "name": "Basic Attack",
+      "variantCount": 1
+    },
+    {
+      "name": "Dodge",
+      "type": "Active",
+      "variantCount": 1,
+      "description": "Evade by moving quickly in the desired direction.",
+      "cooldownSeconds": 0.5
+    },
+    {
+      "name": "Vicious Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 94.8% ATK + 79 damage to up to 4 enemies within 4m and increases Enmity. Restores 100 MP.",
+      "attackRatioPercent": 94.8,
+      "flatDamage": 79,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "+20% MP restored"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    },
+    {
+      "name": "Decisive Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 111.6% ATK + 88 damage to up to 4 enemies within 4m and increases Enmity. Restores 100 MP.",
+      "attackRatioPercent": 111.6,
+      "flatDamage": 88,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "+20% MP restored"
+        },
+        {
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    },
+    {
+      "name": "Desperate Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 133.2% ATK + 100 damage to up to 4 enemies within 4m and increases Enmity. Restores 120 MP.",
+      "attackRatioPercent": 133.2,
+      "flatDamage": 100,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "+20% MP restored"
+        },
+        {
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "effect": "-2s [Warding Strike] cooldown on hit"
+        },
+        {
+          "effect": "Adds [Threatening Blow] Chain Skill"
+        }
+      ]
+    },
+    {
+      "name": "Pummel",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 119.5% ATK + 93 per hit (3 hits) damage to up to 4 enemies within 4m and increases Enmity. 3 Stagger Gauge Damage",
+      "attackRatioPercent": 119.5,
+      "flatDamage": 93,
+      "hits": 3,
+      "mpCost": 120,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "-20% MP consumed"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "[Punishing Strike] absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Deals up to 12% more damage when less targets are hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-1s [Punishment] cooldown on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "[Punishing Strike] grants extra damage on hit"
+        }
+      ]
+    },
+    {
+      "name": "Punishing Strike",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Deals 138.5% ATK + 103 damage to up to 4 enemies within 4m and increases Enmity. 5 Stagger Gauge Damage",
+      "attackRatioPercent": 138.5,
+      "flatDamage": 103,
+      "mpCost": 120,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "effect": "-20% MP consumed"
+        },
+        {
+          "effect": "[Punishing Strike] absorbs —% HP"
+        },
+        {
+          "effect": "Deals up to 12% more damage when less targets are hit"
+        },
+        {
+          "effect": "-1s [Punishment] cooldown on hit"
+        },
+        {
+          "effect": "Extra damage on hit"
+        }
+      ]
+    },
+    {
+      "name": "Doom Shield",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack",
+        "Buff"
+      ],
+      "variantCount": 6,
+      "description": "Rushes to a target within 20m and deals 219% ATK + 1254 damage. Has a 75% chance to inflict Knockdown for 3s. Grants a Protective Shield that blocks damage equaling 5% Max HP for 5s on hit. Triggers [Judgment] for 3s. 100% chance to inflict Knockdown on NPC targets. 20 Stagger Gauge Damage",
+      "attackRatioPercent": 219,
+      "flatDamage": 1254,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Resets [Annihilate] cooldown on hit"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+200 Block for 5s on hit"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "Resets cooldown on defeating an enemy"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+25% Knockdown Chance"
+        }
+      ]
+    },
+    {
+      "name": "Punishment",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack"
+      ],
+      "variantCount": 26,
+      "description": "Selects a target within 20m and deals 430.5–1291.5% ATK + 1394–4184 damage to up to 4 enemies within 4m of the target and grants the Executor effect to the caster for 20s. Executor: Increases Accuracy by 200, PvE Damage Boost by 20%, and PvP Damage Boost by 10% Max 3 Charge Levels 20-35 Stagger Gauge Damage",
+      "attackRatioPercent": 430.5,
+      "flatDamage": 1394,
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Inflicts Damage over Time to target on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+30% Skill Speed"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Ignores Block and Evasion and lands as a Critical Hit"
+        }
+      ]
+    },
+    {
+      "name": "Shield Smite",
+      "type": "Active",
+      "categories": [
+        "Physic",
+        "Attack",
+        "Debuff"
+      ],
+      "variantCount": 26,
+      "description": "Deals 175.75% ATK + 173 damage to up to 4 enemies within 4m. Has a 60% chance to inflict Stun on the target for 3s. Triggers [Judgment] for 2s. 100% chance to inflict Stun on NPC targets. 10 Stagger Gauge Damage",
+      "attackRatioPercent": 175.75,
+      "flatDamage": 173,
+      "mpCost": 100,
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "+1s Stun duration"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Removes MP Cost and restores 200 MP on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "50% chance to trigger [Debilitating Smash] on hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-2s cooldown"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "AoE Stun"
+        }
+      ]
+    },
+    {
+      "name": "Punishment - Level 1",
+      "variantCount": 1,
+      "type": "Active",
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Punishment - Level 2",
+      "variantCount": 1,
+      "type": "Active",
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Punishment - Max",
+      "variantCount": 1,
+      "type": "Active",
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Shield of Protection",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Temporarily increases Block Damage Reduction by 100% and guarantees Block. Restores 110 MP and Stamina once on Block.",
+      "cooldownSeconds": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Taunt",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Deals 155% ATK + 888 damage to a target within 20m and increases Enmity. Inflicts Shrink for 15s on hit and has a 50% chance to inflict Taunt for 3s if the target is a player. Shrink reduces Accuracy by 200 and Attack by 10%.",
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Poach",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 87.5% ATK + 49 damage to a target within 20m and pulls them in front of the caster, with a 75% chance to inflict Root for 2s. Root is guaranteed against NPC targets.",
+      "cooldownSeconds": 15,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Second Skin",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Increases PvE Damage Tolerance by 30% and PvP Damage Tolerance by 15% for 10s. Unaffected by cooldown increase effects.",
+      "cooldownSeconds": 90,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Armor of Balance",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Increases Impact-type Resist by 50% for 10s.",
+      "cooldownSeconds": 90,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Grapple",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Selects a target within 20m and deals 182.5% ATK + 1045 damage to up to 4 enemies within 7m of the target, pulling them in front of the caster. Inflicts Root for 3s.",
+      "mpCost": 200,
+      "cooldownSeconds": 90,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Noble Armor",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Increases Max HP by 5.4% for 120s and immediately restores HP by 5.4% of Max HP. Not affected by buff dispel effects.",
+      "cooldownSeconds": 120,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Judgment",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 229.5% ATK + 227 damage to a target within 4m and increases Enmity.",
+      "cooldownSeconds": 5,
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Comrade in Arms",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Increases caster PvE Damage Tolerance by 20% and PvP Damage Tolerance by 10%; shares incoming party member damage equally with caster for 6s within 40m.",
+      "cooldownSeconds": 120,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Defiance",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Removes Stun, Knockdown, Airborne, Grab, Frost, and Fear and grants Tenacity (Status Effect Immunity) for 5s.",
+      "cooldownSeconds": 60,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Debilitating Smash",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 184% ATK + 336 damage to up to 4 enemies within 4m and inflicts Debilitate for 5s on Block. Debilitate reduces Defense by 25%.",
+      "cooldownSeconds": 10,
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Annihilate",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 321.75% ATK + 791 damage to a Stunned or Knocked Down target within 4m; 30% Knockdown chance for 3s (guaranteed on NPCs).",
+      "mpCost": 200,
+      "cooldownSeconds": 20,
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Empyrean Lord's Punishment",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Deals 164% ATK + 939 damage per hit (3 hits) to up to 4 enemies near a target within 20m; 50% Stun chance for 3s (guaranteed on NPCs).",
+      "mpCost": 200,
+      "cooldownSeconds": 60,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Nezekan's Shield",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Grants caster and party members within 40m a Protective Shield absorbing 41% Max HP for 3s.",
+      "cooldownSeconds": 60,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Capture",
+      "variantCount": 1,
+      "type": "Active",
+      "description": "Deals 121.5% ATK + 506 damage to an enemy within 20m, pulls target, inflicts Root for 3s and has 75% Stun chance for 3s (guaranteed on NPCs).",
+      "cooldownSeconds": 120,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Flash Rampage",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 108% ATK + 152 damage per hit (4 hits) to a target afflicted with Stagger within 4m and increases Enmity.",
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Warding Strike",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Deals 212.5% ATK + 388 damage to up to 4 enemies near caster, restores 180–198 HP and grants Warding for 10s, increasing PvE/PvP Damage Tolerance by 20%/10%.",
+      "mpCost": 200,
+      "cooldownSeconds": 30,
+      "rangeMeters": 4.5,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Executing Blade",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Deals 233% ATK + 1335 damage to up to 4 enemies within 4m, reduces Defense by 30% for 5s and deals 20% more damage to targets with Impact-type status.",
+      "mpCost": 100,
+      "cooldownSeconds": 45,
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Blade Storm",
+      "variantCount": 1,
+      "type": "Active",
+      "description": "Deals 205% ATK + 1174 damage to up to 4 enemies along route to target within 10m; 50% Stun chance for 2s.",
+      "mpCost": 200,
+      "cooldownSeconds": 90,
+      "rangeMeters": 10,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Shield Rush",
+      "variantCount": 26,
+      "type": "Active",
+      "description": "Rushes to target within 10m after Dodge or during flight, dealing 105% ATK + 258 damage, 30% Stun chance for 3s (guaranteed on NPCs).",
+      "cooldownSeconds": 20,
+      "rangeMeters": 10,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Shield Rush - Max",
+      "variantCount": 1,
+      "type": "Active",
+      "cooldownSeconds": 20,
+      "rangeMeters": 10,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Threatening Blow",
+      "variantCount": 12,
+      "type": "Active",
+      "description": "Deals 266.4% ATK + 176 damage per hit (2 hits) to up to 4 enemies within 4m, increases Enmity and restores 150 MP.",
+      "rangeMeters": 4,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Assault Fury",
+      "variantCount": 6,
+      "type": "Active",
+      "description": "Deals 166% ATK + 951 damage to up to 4 enemies near target within 20m; 30% Stun chance for 3s (guaranteed on NPCs); Defense increases up to 20% based on targets hit.",
+      "cooldownSeconds": 120,
+      "rangeMeters": 20,
+      "weapon": "Sword"
+    },
+    {
+      "name": "Enhance Health",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases HP by 250, Max HP by 7.5% and Incoming Heal by 6%.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Warding Shield",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Block by 200 and restores 53–64 HP on Block. Cooldown: 3s.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Punishing Benediction",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Critical Hit by 100; 50% chance to deal 38% ATK + 69 extra damage on attack while buff active.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Ironclad Defense",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Defense by 7% and Endurance by 1%.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Guarding Seal",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Protective Shield absorbs 21% Max HP for 30s when HP is 50% or less. Cooldown: 60s.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Impact Hit",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Impact-type Chance by 11.2% and Double Chance by 0.3%.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Insulting Roar",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Enmity Boost by 100% and Attack by 5.5% for 5s on Front Attack. Cooldown: 5s.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Fury",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Front Attack Damage Boost by 0.3%; on Block grants party PvE Damage Boost 5.5% and PvP Damage Boost 2.75% for 20s.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Survival Willpower",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Increases Status Effect Resist by 17%; grants PvE/PvP Damage Tolerance on certain incapacitating effects.",
+      "weapon": "Sword"
+    },
+    {
+      "name": "Block Pain",
+      "variantCount": 1,
+      "type": "Passive",
+      "description": "Grants Block Pain for 10s when hit; increases PvE Damage Tolerance by 11% and PvP Damage Tolerance by 5.5%. Cooldown: 20s.",
+      "weapon": "Sword"
+    }
+  ]
+}

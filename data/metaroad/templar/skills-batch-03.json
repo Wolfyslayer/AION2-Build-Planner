@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "class": "Templar",
+  "source": {
+    "provider": "MetaRoad",
+    "url": "https://metaroad.gg/aion2/database/skills/templar"
+  },
+  "importScope": "Five additional displayed skills; variant counts are not separate variant records.",
+  "skills": [
+    {
+      "name": "Shield of Protection",
+      "variantCount": 6,
+      "type": "Active",
+      "categories": [
+        "Magic",
+        "Buff"
+      ],
+      "description": "Temporarily increases Block Damage Reduction by 100% and guarantees Block. Restores 110 MP and Stamina once on Block.",
+      "cooldownSeconds": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+1 consecutive use"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "+20% Move Speed for 3s on Block"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "Restores 10% HP once on Block"
+        }
+      ]
+    },
+    {
+      "name": "Taunt",
+      "variantCount": 6,
+      "type": "Active",
+      "categories": [
+        "Magic",
+        "Debuff"
+      ],
+      "description": "Deals 155% ATK + 888 damage to a target within 20m and increases Enmity. Inflict Shrink for 15s on hit and has a 50% chance to inflict Taunt for 3s if the target is a player. Shrink: Reduces Accuracy by 200 and Attack by 10% 20 Stagger Gauge Damage",
+      "attackRatioPercent": 155,
+      "flatDamage": 888,
+      "cooldownSeconds": 30,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Adds 10% PvE Damage Tolerance reduction and 5% PvP Damage Tolerance reduction effect to Shrink"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+10% Shrink Attack reduction"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "-5s cooldown"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+2s Taunt duration, +5s Shrink duration"
+        }
+      ]
+    },
+    {
+      "name": "Poach",
+      "variantCount": 26,
+      "type": "Active",
+      "categories": [
+        "Magic",
+        "Attack",
+        "Debuff"
+      ],
+      "description": "Deals 87.5% ATK + 49 damage to a target within 20m and pulls them in front of the caster, with a 75% chance to inflict Root for 2s. 100% chance to inflict Root on NPC targets. 10 Stagger Gauge Damage",
+      "attackRatioPercent": 87.5,
+      "flatDamage": 49,
+      "cooldownSeconds": 15,
+      "rangeMeters": 20,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Moves to the target if target has Incapacitated Immunity"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "-20% Status Effect Resist for 5s on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Resets cooldown on defeating an enemy"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "10% Max HP Protective Shield"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "50% chance to Stun for 3s"
+        }
+      ]
+    },
+    {
+      "name": "Second Skin",
+      "variantCount": 6,
+      "type": "Active",
+      "categories": [
+        "Magic",
+        "Buff"
+      ],
+      "description": "Increases PvE Damage Tolerance by 30% and PvP Damage Tolerance by 15% for 10s. Unaffected by cooldown increase effects.",
+      "cooldownSeconds": 90,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+10% all Element Tolerance for the duration"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+20% Block for the duration"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 [Ironclad Defense] effect for the duration"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+20% PvE Damage Tolerance increase and +10% PvP Damage Tolerance increase"
+        }
+      ]
+    },
+    {
+      "name": "Armor of Balance",
+      "variantCount": 6,
+      "type": "Active",
+      "categories": [
+        "Magic",
+        "Buff"
+      ],
+      "description": "Increases Impact-type Resist by 50% for 10s.",
+      "cooldownSeconds": 90,
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+20% Ailment-type, Mental-type Resist for the duration"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+20% Move Speed for the duration"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 [Warding Shield] effect for the duration"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+50% additional Impact-type Resist"
+        }
+      ]
+    }
+  ]
+}

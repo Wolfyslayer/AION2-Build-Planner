@@ -1,0 +1,61 @@
+{
+  "source": "User-provided MetaRoad build screenshot, White Dragon Lord Longsword +15. Screenshot-only example, NOT universal stat ranges or eligibility.",
+  "slot": "weapon",
+  "soulImprintSlots": 5,
+  "magicstoneSockets": 4,
+  "soulImprintExamples": [
+    {
+      "stat": "Damage Boost",
+      "min": 5.44,
+      "max": 6.33,
+      "unit": "%"
+    },
+    {
+      "stat": "Combat Speed",
+      "min": 9.72,
+      "max": 11.25,
+      "unit": "%"
+    },
+    {
+      "stat": "Weapon Damage Boost",
+      "min": 7.2,
+      "max": 8.35,
+      "unit": "%"
+    },
+    {
+      "stat": "Might",
+      "min": 19,
+      "max": 29,
+      "unit": "flat"
+    },
+    {
+      "stat": "Precision",
+      "min": 19,
+      "max": 29,
+      "unit": "flat"
+    }
+  ],
+  "magicstoneExamples": [
+    {
+      "stat": "Front Attack Damage Boost",
+      "value": 1,
+      "unit": "%"
+    },
+    {
+      "stat": "Weapon Damage Boost",
+      "value": 1,
+      "unit": "%"
+    },
+    {
+      "stat": "Critical Damage Boost",
+      "value": 1,
+      "unit": "%"
+    },
+    {
+      "stat": "Attack",
+      "value": 10,
+      "unit": "flat"
+    }
+  ],
+  "note": "Displayed 5 imprint rows and 4 sockets belong to this example item. Not asserted for all weapons or other slots."
+}

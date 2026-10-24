@@ -336,7 +336,25 @@
       "type": "Active",
       "description": "Temporarily increases Block Damage Reduction by 100% and guarantees Block. Restores 110 MP and Stamina once on Block.",
       "cooldownSeconds": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+1 consecutive use"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "+20% Move Speed for 3s on Block"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "Restores 10% HP once on Block"
+        }
+      ]
     },
     {
       "name": "Taunt",
@@ -345,7 +363,25 @@
       "description": "Deals 155% ATK + 888 damage to a target within 20m and increases Enmity. Inflicts Shrink for 15s on hit and has a 50% chance to inflict Taunt for 3s if the target is a player. Shrink reduces Accuracy by 200 and Attack by 10%.",
       "cooldownSeconds": 30,
       "rangeMeters": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Adds 10% PvE and 5% PvP Damage Tolerance reduction to Shrink"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+10% Shrink Attack reduction"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "-5s cooldown"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+2s Taunt duration, +5s Shrink duration"
+        }
+      ]
     },
     {
       "name": "Poach",
@@ -354,7 +390,29 @@
       "description": "Deals 87.5% ATK + 49 damage to a target within 20m and pulls them in front of the caster, with a 75% chance to inflict Root for 2s. Root is guaranteed against NPC targets.",
       "cooldownSeconds": 15,
       "rangeMeters": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Moves to target if target has Incapacitated Immunity"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "-20% Status Effect Resist for 5s on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Resets cooldown on defeating enemy"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "10% Max HP Protective Shield"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "50% chance to Stun for 3s"
+        }
+      ]
     },
     {
       "name": "Second Skin",
@@ -362,7 +420,25 @@
       "type": "Active",
       "description": "Increases PvE Damage Tolerance by 30% and PvP Damage Tolerance by 15% for 10s. Unaffected by cooldown increase effects.",
       "cooldownSeconds": 90,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+10% all Element Tolerance for duration"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+20% Block for duration"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 Ironclad Defense effect for duration"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+20% PvE Damage Tolerance and +10% PvP Damage Tolerance"
+        }
+      ]
     },
     {
       "name": "Armor of Balance",
@@ -370,7 +446,25 @@
       "type": "Active",
       "description": "Increases Impact-type Resist by 50% for 10s.",
       "cooldownSeconds": 90,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+20% Ailment-type and Mental-type Resist"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+20% Move Speed"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 Warding Shield effect"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+50% additional Impact-type Resist"
+        }
+      ]
     },
     {
       "name": "Grapple",
@@ -380,7 +474,25 @@
       "mpCost": 200,
       "cooldownSeconds": 90,
       "rangeMeters": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "50% chance to Stun for 3s on hit"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "20% Max HP Protective Shield for 10s on use"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "-30s cooldown"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "Up to +20% PvE and +10% PvP Damage Tolerance when more targets hit"
+        }
+      ]
     },
     {
       "name": "Noble Armor",
@@ -388,7 +500,25 @@
       "type": "Active",
       "description": "Increases Max HP by 5.4% for 120s and immediately restores HP by 5.4% of Max HP. Not affected by buff dispel effects.",
       "cooldownSeconds": 120,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+5% Defense"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "x1.5 Insulting Roar effect"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 Fury effect"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+10% Incoming Heal"
+        }
+      ]
     },
     {
       "name": "Judgment",
@@ -397,7 +527,29 @@
       "description": "Deals 229.5% ATK + 227 damage to a target within 4m and increases Enmity.",
       "cooldownSeconds": 5,
       "rangeMeters": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Extra damage on Impact-type affected targets"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Extra damage on hit"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Critical Hit on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Remove cooldown"
+        }
+      ]
     },
     {
       "name": "Comrade in Arms",
@@ -405,7 +557,25 @@
       "type": "Active",
       "description": "Increases caster PvE Damage Tolerance by 20% and PvP Damage Tolerance by 10%; shares incoming party member damage equally with caster for 6s within 40m.",
       "cooldownSeconds": 120,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Restores 25% Max HP once if hit while HP 25% or less"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "x1.5 Guarding Seal Protective Shield effect"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "x1.5 Block Pain effect"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "Restores 50% caster Max HP when effect ends"
+        }
+      ]
     },
     {
       "name": "Defiance",
@@ -413,7 +583,29 @@
       "type": "Active",
       "description": "Removes Stun, Knockdown, Airborne, Grab, Frost, and Fear and grants Tenacity (Status Effect Immunity) for 5s.",
       "cooldownSeconds": 60,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Adds Capture Chain Skill"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Restores 1000 Stamina on use"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Restores 20% HP on use"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "+2s Tenacity duration"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "+50% PvE and +25% PvP Damage Tolerance during Tenacity"
+        }
+      ]
     },
     {
       "name": "Debilitating Smash",
@@ -422,7 +614,29 @@
       "description": "Deals 184% ATK + 336 damage to up to 4 enemies within 4m and inflicts Debilitate for 5s on Block. Debilitate reduces Defense by 25%.",
       "cooldownSeconds": 10,
       "rangeMeters": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "30% chance to Stun for 3s"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+3s Debilitate duration"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "-60% Incoming Heal during Debilitate"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Ignores Block and Evasion and lands as Multi-Hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "25% chance to reset cooldown on Block"
+        }
+      ]
     },
     {
       "name": "Annihilate",
@@ -432,7 +646,29 @@
       "mpCost": 200,
       "cooldownSeconds": 20,
       "rangeMeters": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "+50% Multi-Hit on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+20% Knockdown Chance"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+100% damage to Incapacitated Immunity targets"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-10s cooldown"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "Changes to AoE Skill"
+        }
+      ]
     },
     {
       "name": "Empyrean Lord's Punishment",
@@ -442,7 +678,25 @@
       "mpCost": 200,
       "cooldownSeconds": 60,
       "rangeMeters": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "Up to +20% damage when fewer targets hit"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+50 Stagger Gauge Damage"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "+10% PvE and +5% PvP Damage Boost for 10s on hit"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+25% Stun Chance"
+        }
+      ]
     },
     {
       "name": "Nezekan's Shield",
@@ -450,7 +704,25 @@
       "type": "Active",
       "description": "Grants caster and party members within 40m a Protective Shield absorbing 41% Max HP for 3s.",
       "cooldownSeconds": 60,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+20% all Element Tolerance for shield duration"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "+2s shield duration"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "+20% PvE and +10% PvP Damage Tolerance for shield duration"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "Restores 20% Max HP when shield removed"
+        }
+      ]
     },
     {
       "name": "Capture",
@@ -467,7 +739,29 @@
       "type": "Active",
       "description": "Deals 108% ATK + 152 damage per hit (4 hits) to a target afflicted with Stagger within 4m and increases Enmity.",
       "rangeMeters": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Absorbs —% HP"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Restores 120 MP on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Changes to mobile skill"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Multi-Hit on hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "-1s to all skill cooldowns on hit"
+        }
+      ]
     },
     {
       "name": "Warding Strike",
@@ -477,7 +771,29 @@
       "mpCost": 200,
       "cooldownSeconds": 30,
       "rangeMeters": 4.5,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "-5s cooldown"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+100 Block during Warding"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Heal over Time during Warding"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "Additional PvE/PvP Damage Tolerance when more targets hit"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "+10% PvE and +5% PvP Damage Tolerance to party on use"
+        }
+      ]
     },
     {
       "name": "Executing Blade",
@@ -487,7 +803,25 @@
       "mpCost": 100,
       "cooldownSeconds": 45,
       "rangeMeters": 4,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "-15s cooldown"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "Inflict Exposed for 5s on hit"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "Critical Hit on hit"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+30% damage on Impact-type afflicted targets"
+        }
+      ]
     },
     {
       "name": "Blade Storm",
@@ -506,7 +840,29 @@
       "description": "Rushes to target within 10m after Dodge or during flight, dealing 105% ATK + 258 damage, 30% Stun chance for 3s (guaranteed on NPCs).",
       "cooldownSeconds": 20,
       "rangeMeters": 10,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 8,
+          "effect": "Restores 300 Stamina on hit"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "+10m range"
+        },
+        {
+          "requiredRank": 8,
+          "effect": "Changes to Charge Skill and deals AoE damage"
+        },
+        {
+          "requiredRank": 12,
+          "effect": "-10s cooldown"
+        },
+        {
+          "requiredRank": 16,
+          "effect": "+25% Stun Chance"
+        }
+      ]
     },
     {
       "name": "Shield Rush - Max",
@@ -531,7 +887,25 @@
       "description": "Deals 166% ATK + 951 damage to up to 4 enemies near target within 20m; 30% Stun chance for 3s (guaranteed on NPCs); Defense increases up to 20% based on targets hit.",
       "cooldownSeconds": 120,
       "rangeMeters": 20,
-      "weapon": "Sword"
+      "weapon": "Sword",
+      "specializations": [
+        {
+          "requiredRank": 5,
+          "effect": "+20% Attack for 5s on hit"
+        },
+        {
+          "requiredRank": 10,
+          "effect": "500 MP damage on hit"
+        },
+        {
+          "requiredRank": 15,
+          "effect": "+10m range"
+        },
+        {
+          "requiredRank": 20,
+          "effect": "+20% Stun Chance"
+        }
+      ]
     },
     {
       "name": "Enhance Health",

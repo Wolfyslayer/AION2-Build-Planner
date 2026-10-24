@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "game": "AION 2",
+  "class": "Templar",
+  "source": {
+    "provider": "MetaRoad",
+    "url": "https://metaroad.gg/aion2/database/daevanion/templar"
+  },
+  "boardGrid": {
+    "rows": 15,
+    "columns": 15
+  },
+  "currencyPools": [
+    {
+      "name": "DaevanionCrystal",
+      "availablePoints": 840,
+      "allBoardsCost": 570,
+      "boards": [
+        "Nezekan",
+        "Zikel",
+        "Vaizel",
+        "Triniel"
+      ]
+    },
+    {
+      "name": "BattleCrystal",
+      "availablePoints": 232,
+      "allBoardsCost": 232,
+      "boards": [
+        "Azphel"
+      ]
+    }
+  ],
+  "scope": "All five published board summaries: unlocks, counts, aggregate costs, stat totals and skill-level totals. Individual node positions, dependencies, rarities and node-level costs are NOT included because they are not exposed in the page text.",
+  "boards": [
+    {
+      "name": "Nezekan",
+      "unlockLevel": 12,
+      "nodeCount": 89,
+      "totalCost": 134,
+      "stats": {
+        "HP": 1100,
+        "MP": 550,
+        "Combat Speed %": 3,
+        "Cooldown Reduction %": 3,
+        "Defense Bonus": 300,
+        "Critical Hit Resist": 50,
+        "Critical Hit": 50,
+        "Attack Bonus": 30
+      },
+      "skills": {
+        "Warding Shield": 2,
+        "Punishing Benediction": 2,
+        "Enhance Health": 2,
+        "Ironclad Defense": 2,
+        "Guarding Seal": 2,
+        "Annihilate": 1,
+        "Judgment": 1,
+        "Poach": 1,
+        "Warding Strike": 1,
+        "Pummel": 1,
+        "Defiance": 1,
+        "Flash Rampage": 1,
+        "Vicious Strike": 1,
+        "Shield Rush": 1,
+        "Shield Smite": 1,
+        "Debilitating Smash": 1,
+        "Punishment": 1
+      },
+      "completionBuff": "Daevanion Nezekan Effects",
+      "nodeDetailsImported": false
+    },
+    {
+      "name": "Zikel",
+      "unlockLevel": 20,
+      "nodeCount": 89,
+      "totalCost": 134,
+      "stats": {
+        "HP": 900,
+        "MP": 550,
+        "Defense Bonus": 330,
+        "Damage Tolerance %": 3,
+        "Damage Boost %": 3,
+        "Critical Hit": 50,
+        "Critical Hit Resist": 50,
+        "Attack Bonus": 33
+      },
+      "skills": {
+        "Impact Hit": 2,
+        "Block Pain": 2,
+        "Survival Willpower": 2,
+        "Fury": 2,
+        "Insulting Roar": 2,
+        "Flash Rampage": 1,
+        "Punishment": 1,
+        "Vicious Strike": 1,
+        "Poach": 1,
+        "Shield Smite": 1,
+        "Pummel": 1,
+        "Warding Strike": 1,
+        "Annihilate": 1,
+        "Shield Rush": 1,
+        "Debilitating Smash": 1,
+        "Judgment": 1,
+        "Defiance": 1
+      },
+      "completionBuff": "Daevanion Zikel Effects",
+      "nodeDetailsImported": false
+    },
+    {
+      "name": "Vaizel",
+      "unlockLevel": 30,
+      "nodeCount": 89,
+      "totalCost": 134,
+      "stats": {
+        "HP": 1000,
+        "MP": 500,
+        "Critical Damage Boost %": 3,
+        "Critical Damage Tolerance %": 3,
+        "Defense Bonus": 300,
+        "Critical Hit Resist": 55,
+        "Critical Hit": 55,
+        "Attack Bonus": 30
+      },
+      "skills": {
+        "Enhance Health": 1,
+        "Flash Rampage": 1,
+        "Punishing Benediction": 1,
+        "Poach": 1,
+        "Annihilate": 1,
+        "Warding Strike": 1,
+        "Guarding Seal": 1,
+        "Fury": 1,
+        "Survival Willpower": 1,
+        "Judgment": 1,
+        "Debilitating Smash": 1,
+        "Vicious Strike": 1,
+        "Punishment": 1,
+        "Block Pain": 1,
+        "Impact Hit": 1,
+        "Insulting Roar": 1,
+        "Pummel": 1,
+        "Shield Smite": 1,
+        "Shield Rush": 1,
+        "Ironclad Defense": 1,
+        "Defiance": 1,
+        "Warding Shield": 1
+      },
+      "completionBuff": "Daevanion Vaizel Effects",
+      "nodeDetailsImported": false
+    },
+    {
+      "name": "Triniel",
+      "unlockLevel": 40,
+      "nodeCount": 117,
+      "totalCost": 168,
+      "stats": {
+        "HP": 1500,
+        "MP": 750,
+        "Multi-hit Resist %": 4.5,
+        "Multi-hit Chance %": 4.5,
+        "Defense Bonus": 420,
+        "Critical Hit": 75,
+        "Critical Hit Resist": 75,
+        "Attack Bonus": 42
+      },
+      "skills": {
+        "Shield Smite": 1,
+        "Block Pain": 1,
+        "Impact Hit": 1,
+        "Pummel": 1,
+        "Flash Rampage": 1,
+        "Warding Shield": 1,
+        "Shield Rush": 1,
+        "Ironclad Defense": 1,
+        "Warding Strike": 1,
+        "Insulting Roar": 1,
+        "Annihilate": 1,
+        "Punishment": 1,
+        "Guarding Seal": 1,
+        "Judgment": 1,
+        "Punishing Benediction": 1,
+        "Debilitating Smash": 1,
+        "Enhance Health": 1,
+        "Defiance": 1,
+        "Poach": 1,
+        "Fury": 1,
+        "Survival Willpower": 1,
+        "Vicious Strike": 1
+      },
+      "completionBuff": "Daevanion Triniel Effects",
+      "nodeDetailsImported": false
+    },
+    {
+      "name": "Azphel",
+      "unlockLevel": 45,
+      "nodeCount": 153,
+      "totalCost": 232,
+      "stats": {
+        "Status Effect Chance %": 8,
+        "Status Effect Resist %": 8,
+        "PvP Damage Tolerance %": 6,
+        "PvP Damage Boost %": 6,
+        "PvP Defense": 480,
+        "HP": 400,
+        "MP": 200,
+        "PvP Critical Hit": 120,
+        "PvP Accuracy": 120,
+        "PvP Critical Hit Resist": 80,
+        "PvP Attack": 72,
+        "PvP Evasion": 48
+      },
+      "skills": {},
+      "completionBuff": "Daevanion Azphel Effects",
+      "nodeDetailsImported": false
+    }
+  ]
+}
